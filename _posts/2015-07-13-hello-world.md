@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello world"
 date:   2015-07-13 23:14:54
-categories: Misc
+categories: Miscellaneous
 excerpt: Hello world.
 ---
 
@@ -10,7 +10,7 @@ excerpt: Hello world.
 {:toc}
 
 
-## Hello world
+Hello world
 
 From Frank the Obscure @ GitHub
 
