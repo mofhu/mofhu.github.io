@@ -6,4 +6,4 @@ Hello world!
 
 Frank the Obscure, 2015
 
-[Jekyll theme](https://github.com/Gaohaoyang/gaohaoyang.github.io) by Gaohaoyang
+Jekyll theme adapted from [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io) 
