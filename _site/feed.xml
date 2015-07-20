@@ -5,9 +5,78 @@
     <description>无名的弗兰克</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 23:32:29 +0800</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 23:32:29 +0800</lastBuildDate>
+    <pubDate>Mon, 20 Jul 2015 23:24:44 +0800</pubDate>
+    <lastBuildDate>Mon, 20 Jul 2015 23:24:44 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>GitBook auto summary</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#gitbook-auto-summaryhttpfrank-the-obscuremegitbook-auto-summary&quot;&gt;&lt;a href=&quot;http://frank-the-obscure.me/GitBook-auto-summary/&quot;&gt;GitBook auto summary&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#usage&quot;&gt;usage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#examples&quot;&gt;examples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;gitbook-auto-summaryhttpfrank-the-obscuremegitbook-auto-summary&quot;&gt;&lt;a href=&quot;http://frank-the-obscure.me/GitBook-auto-summary/&quot;&gt;GitBook auto summary&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Automatically update SUMMARY.md of a GitBook repo&lt;/p&gt;
+
+&lt;p&gt;自动输出 GitBook 目录的 SUMMARY.md 文件.&lt;/p&gt;
+
+&lt;h1 id=&quot;usage&quot;&gt;usage&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;$ python gitbook-auto-summary.py&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;use argument &lt;code&gt;-o&lt;/code&gt; to overwrite SUMMARY.md without checking.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;input directory(it should be the &lt;em&gt;root&lt;/em&gt; directory of a GitBook repo)&lt;/li&gt;
+  &lt;li&gt;the auto summary file &lt;code&gt;SUMMARY.md&lt;/code&gt; will be under the same directory.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Tested with Python 3.4.3 in Windows 7 and OS 10.10&lt;/p&gt;
+
+&lt;h1 id=&quot;examples&quot;&gt;examples&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;
+folder tree:
+.
+├── README.md
+├── SUMMARY.md
+├── md
+│   └── SUMMARY.md
+├── nomd
+└── os-and-os-path.md
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;output SUMMARY.md:&lt;/p&gt;
+
+&lt;p&gt;```
+# Summary&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;./os-and-os-path.md&quot;&gt;os-and-os-path&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./README.md&quot;&gt;README&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;md
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;md/SUMMARY.md&quot;&gt;SUMMARY&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Jul 2015 07:21:54 +0800</pubDate>
+        <link>/2015/07/21/gitbook-auto-summary/</link>
+        <guid isPermaLink="true">/2015/07/21/gitbook-auto-summary/</guid>
+        
+        
+        <category>programming</category>
+        
+        <category>python</category>
+        
+      </item>
     
       <item>
         <title>Hello world</title>

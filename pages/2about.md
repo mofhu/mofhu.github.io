@@ -19,19 +19,22 @@ icon: glyphicon-heart
 
 * [iDoulist 爱豆列](https://github.com/Frank-the-Obscure/iDoulist)
   * 和开智小伙伴一起完成的 Python 入门作品; 尝试解决豆瓣豆列管理的一些问题
-* [mascot-csv-process](https://github.com/Frank-the-Obscure/mascot-csv-process)
+  * 使用 Python 标准库 urllib + re 实现豆瓣豆列内容抓取
+  * 使用 PyAutoGUI 实现自动进行键盘鼠标操作, 复制(fork)豆列
+* [mascot-csv-process](http://frank-the-obscure.me/mascot-csv-process/)
   * 一个解决个人日常工作数据处理重复性劳动的小脚本
+* [GitBook auto summary](http://frank-the-obscure.me/GitBook-auto-summary/)
+  * 自动输出 GitBook 目录的 SUMMARY.md 文件.
 
 ### 写作
 
 技术教程和记录
 
 * [写给自己的 Python 入门书](https://www.gitbook.com/book/frank-the-obscure/pythoncamp0/details)
-  * 开智 Python 入门学习记录, 写代码是件快乐的事 :)
+  * 开智 Python 入门学习记录. 写代码是件快乐的事 :)
 * [Python 1 to n](https://www.gitbook.com/book/frank-the-obscure/python-1-to-n/details)
   * 继续探索技术世界的记录
 
----
 
 随笔
 
