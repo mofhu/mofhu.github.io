@@ -29,22 +29,27 @@ Tested with Python 3.4.3 in Windows 7 and OS 10.10
 ```
 folder tree:
 .
-├── README.md
-├── SUMMARY.md
-├── md
-│   └── SUMMARY.md
-├── nomd
-└── os-and-os-path.md
+
+├── README.md  
+
+├── SUMMARY.md  
+
+├── md  
+
+│   └── SUMMARY.md  
+
+├── nomd  
+
+└── os-and-os-path.md  
 ```
 
 output SUMMARY.md:
 
-```
-# Summary
 
-- [os-and-os-path](./os-and-os-path.md)
-- [README](./README.md)
-- md
-  - [SUMMARY](md/SUMMARY.md)
+`# Summary`  
+`- [os-and-os-path](./os-and-os-path.md)`   
+`- [README](./README.md)`  
+`- md`  
+`  - [SUMMARY](md/SUMMARY.md)`  
 
-```
+
