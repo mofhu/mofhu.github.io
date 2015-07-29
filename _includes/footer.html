@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> {{ site.email }}</a>
+        <span>{{ site.description }}</span>
         <span class="point"> · </span>
         {% if site.github_username %}
           
@@ -20,8 +20,7 @@
           <span class="point"> · </span>
           <span><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></span>
           <span class="point"> · </span>
-          <span>{{ site.description }}</span>
-          <span class="point"> · </span>
+
           <span>&copy; 2015 Frank-the-Obscure</span>
           <span class="point"> · </span>
           <span>Jekyll theme adapted from Gaohaoyang</a></span>
