@@ -2,7 +2,7 @@
 layout: post
 title:  "Python 入门笔记"
 date: 2015-06-12 23:14:54
-categories: Python study
+categories: Python study programming
 excerpt: Hello Python.
 ---
 

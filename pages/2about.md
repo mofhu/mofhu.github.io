@@ -7,9 +7,9 @@ icon: glyphicon-heart
 
 ## 关于我
 
-普通的在读化学博士生一名. 这里是我的个人博客.
+普通的在读化学博士生一名. 这里是我的个人博客, 文章主题偏向于技术和写作.
 
-不想给自己贴标签了, 如果你对我感兴趣的话, 不妨看看下面的内容 :)
+如果你对我感兴趣的话, 不妨看看下面的简单介绍 :)
 
 ---
 
@@ -30,22 +30,23 @@ icon: glyphicon-heart
 
 技术教程和记录
 
-* [写给自己的 Python 入门书](https://www.gitbook.com/book/frank-the-obscure/pythoncamp0/details)
-  * 开智 Python 入门学习记录. 写代码是件快乐的事 :)
-* [Python 1 to n](https://www.gitbook.com/book/frank-the-obscure/python-1-to-n/details)
-  * 继续探索技术世界的记录
+- [写给自己的 Python 入门书](https://www.gitbook.com/book/frank-the-obscure/pythoncamp0/details)
+  - 开智 Python 入门学习记录. 写代码是件快乐的事 :)
+- [Python 1 to n](https://www.gitbook.com/book/frank-the-obscure/python-1-to-n/details)
+  - 继续探索技术世界的记录
 
 
 随笔
 
-* [写给十年前的自己](https://www.gitbook.com/book/frank-the-obscure/for-myself-at-16/details)
-* [读书笔记](https://www.gitbook.com/book/frank-the-obscure/reading-notes/details)
+- [写给十年前的自己](https://www.gitbook.com/book/frank-the-obscure/for-myself-at-16/details)
+  - 和十年前的自己聊聊这十年的时光, 和想告诉他的一些事
+- [读书笔记](https://www.gitbook.com/book/frank-the-obscure/reading-notes/details)
+  - 阅读的记录. 如果你对这里的文章感兴趣, 那么很可能也会对我阅读的书感兴趣 XD
 
 ---
 
 ## 联系我
 
 * Email: [humour114@gmail.com](mailto:{{ site.email }})
-* LinkedIn: [胡墨](https://cn.linkedin.com/in/mofrankhu)
 * 知乎: [胡墨](http://www.zhihu.com/people/frank_hu)
 * 豆瓣: [无名的弗兰克](http://www.douban.com/people/franktheobscure/)
