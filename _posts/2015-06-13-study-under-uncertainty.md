@@ -2,7 +2,7 @@
 layout: post
 title:  "不确定情况下的学习 Study under Uncertainty"
 date:   2015-06-13 23:14:54
-categories: 写给16岁的自己 Study
+categories: 写给十年前的自己 Study
 excerpt: Hello world.
 ---
 

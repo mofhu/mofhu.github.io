@@ -5,9 +5,165 @@
     <description>无名的弗兰克</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2015 23:08:42 +0800</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2015 23:08:42 +0800</lastBuildDate>
+    <pubDate>Mon, 10 Aug 2015 22:08:11 +0800</pubDate>
+    <lastBuildDate>Mon, 10 Aug 2015 22:08:11 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>概念与定义</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#section&quot;&gt;概念与定义&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-1&quot;&gt;概念: 一个神奇的黑盒子&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-2&quot;&gt;理性定义概念&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;概念与定义&lt;/h1&gt;
+
+&lt;p&gt;前面我们讨论了理性和语言. 我们在日常生活中说的话时常并不那么准确, 甚至常有”强词夺理”之嫌. 那么, 如果我们想把可重复的理性带到自己的生活之中, 应该怎么尝试呢? 理性的分析与讨论, 就从定义话语中的每一个概念开始.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;概念: 一个神奇的黑盒子&lt;/h2&gt;
+
+&lt;p&gt;为了描述复杂的世界, 人类发明了无数&lt;strong&gt;概念&lt;/strong&gt;. 概念可以大致理解成一个黑盒子, 有它自身的范围, 可以判断某个对象是否属于其中. &lt;/p&gt;
+
+&lt;p&gt;模糊的自然语言之中, 同一个概念的含义也时常多变. 比如, 茶杯的 ”安全” 和一辆车的 ”安全” 并不是一个含义. 前者可能是指茶杯不容易打碎, 后者则是指车中的乘客的人身安全. 因此, 想要精确地定义或理解概念时, 我们时常需要分析概念所处的具体语境.&lt;/p&gt;
+
+&lt;p&gt;很多似是而非的 ”问题”, 也来自于概念的模糊不清. 知乎上有一个问题: 很多 ”聪明人”为什么不成功？对这句话的分析, 可以从分析话语中的两个概念—- ”聪明” 和 ”成功” 开始[1]. &lt;/p&gt;
+
+&lt;p&gt;在此处的 “聪明” 通常是指&lt;strong&gt;做事快&lt;/strong&gt;; 而成功, 成就则是指完成别人难以完成的事情—-有的时候是超出常人的速度, 但更多的时候, 则是比较完成事情的质量（如写一本长篇小说时，我们并不关注写作时间长短, 而是最终作品的质量高低）.&lt;/p&gt;
+
+&lt;p&gt;当我们定义出这两个概念的轮廓与交集, 再继续讨论下去就非常方便. 做事的质量和快慢没有直接联系, “聪明人” 在需要做事快的时候可能容易成功, 但对于更多的事情来说, 他们可能未必有特别的优势, 因此, 很多聪明人不成功, 实际上并不奇怪. &lt;/p&gt;
+
+&lt;p&gt;而我们刚看到这个问题时, 感觉似乎有点别扭, 是因为我们的第一反应并不是理性定义这两个概念. “聪明”作为一个褒义词, 使我们产生了一种正面的想象; 但当这个正面的情绪和 “不成功” 联系起来时, 我们的情绪反应就会有些不一致. 这就是概念(语言)的情感力量. &lt;/p&gt;
+
+&lt;p&gt;当几个概念被一起使用时, 它们的情感力量会互相作用, 从而影响我们的判断. 广告就是一个最典型的例子. 把产品和美好的事物放在一起出现时, 我们会自然地产生一种和谐的联想—-这个产品也是美好的(当然, 真相究竟如何, 是另一个问题). &lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;理性定义概念&lt;/h2&gt;
+
+&lt;p&gt;概念是我们使用语言的最小单位. 而当我们希望自己说的话可以准确表达某种特定的意思时, 小心使用概念就非常重要. 我们想表达的范围有多大? 这个概念有没有附加的情感含义? 别人听到这个概念的时候, 他们的理解是我们希望的吗?&lt;/p&gt;
+
+&lt;p&gt;这里对概念与定义的讨论, 只是进一步指出日常生活中我们的一些困惑, 实际上来源于混乱的概念与定义[2]. 而我们想要理性讨论问题时, 相对准确的概念则是一个必要的出发点.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;另一种对这个问题的看法是观察者偏见. 即聪明人不成功的比例并不显著高于人群整体, 但因为观察的人更多地注意到了聪明人, 就更多地注意到了不成功的聪明人, 会产生不成功的聪明人很多的感觉.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在自然语言的模糊背景下, 我们也许并不能建立出一套完美精确的概念体系. 事实上, 即使在使用精确数学语言的集合论中, 清晰定义概念范围—-集合边界的尝试(&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E7%AD%96%E6%A2%85%E6%B4%9B-%E5%BC%97%E5%85%B0%E5%85%8B%E5%B0%94%E9%9B%86%E5%90%88%E8%AE%BA&quot;&gt;策梅洛-弗兰克尔集合论&lt;/a&gt;)也并不那么成功. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;&lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;本&lt;span xmlns:dct=&quot;http://purl.org/dc/terms/&quot; href=&quot;http://purl.org/dc/dcmitype/Text&quot; rel=&quot;dct:type&quot;&gt;作品&lt;/span&gt;采用&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Aug 2015 07:21:54 +0800</pubDate>
+        <link>/2015/08/10/concept-and-definition/</link>
+        <guid isPermaLink="true">/2015/08/10/concept-and-definition/</guid>
+        
+        
+        <category>写给十年前的自己</category>
+        
+        <category>理性之心</category>
+        
+      </item>
+    
+      <item>
+        <title>argparse - Python standard library</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#argparse---python-standard-library&quot;&gt;argparse - Python standard library&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#outline&quot;&gt;Outline&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#why-argparse--argparse-&quot;&gt;why argparse? 为何要学 argparse 模块?&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#section&quot;&gt;为什么要用参数?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#section-1&quot;&gt;怎么接受参数比较好?&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#how-to-begin-&quot;&gt;how to begin? 怎么上手?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;argparse---python-standard-library&quot;&gt;argparse - Python standard library&lt;/h1&gt;
+
+&lt;h2 id=&quot;outline&quot;&gt;Outline&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;why argparse? 为什么要用?&lt;/li&gt;
+  &lt;li&gt;how to begin? 怎么上手?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-argparse--argparse-&quot;&gt;why argparse? 为何要学 argparse 模块?&lt;/h2&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;为什么要用参数?&lt;/h3&gt;
+
+&lt;p&gt;对于一个能完成特定功能的程序, 直接用命令行调用最为简单(相对于进入之后大量的用户 i/o 来说). 因此通过一串参数表明调用程序的功能, 也是一种最常用的模式(几个月前的自己还觉得一堆命令参数很麻烦, 现在就已经入坑了XD). &lt;/p&gt;
+
+&lt;p&gt;如同一个好的函数通常用参数来接受输入, 一个好的程序也应当通过命令行参数来接受输入. 这样的交互优点可能有: 更易于使用和自动化调用; 更容易控制用户的输入输出.&lt;/p&gt;
+
+&lt;p&gt;具体的例子: 在 GitBook auto summary 和 orglab/mahjong 早期开发中, 均使用了 rawinput/input 函数在程序内接受用户输入. 如果想要进一步自动化操作(如定期自动导出), 就需要设法在程序内模拟用户输入. 这在技术上麻烦了很多, 不如直接在命令行接受参数作为输入. 因此, 后期都增加了相应的功能.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;怎么接受参数比较好?&lt;/h3&gt;
+&lt;p&gt;对于这两个程序, 因结构比较简单, 参数数量也少. 直接手动写接受参数也可行(初期直接用 sys.argv unpack实现). 但有以下问题:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;可能自己的实现中有 bug&lt;/li&gt;
+  &lt;li&gt;长期写程序时复用性如何?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;浏览 python doc 时看到 argparse 的入门教程(tutorial)[1]. 于是用最简方法应用到自己的 Gitbook auto summary 仓库之中.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-begin-&quot;&gt;how to begin? 怎么上手?&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;argparse&lt;/code&gt; module makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments. [2]&lt;/p&gt;
+
+&lt;p&gt;简单来说, argparse 可以帮助我们很容易的写出命令行交互界面(command-line interface), 并且可以自动生成很好的注释, 帮助及错误处理, 便于程序被大家(和自己)使用. &lt;/p&gt;
+
+&lt;p&gt;在 GitBook auto summary (commit &lt;a href=&quot;https://github.com/Frank-the-Obscure/GitBook-auto-summary/commit/5005ebf8c1baeb4a093ec263d6a3ad87ff5cc42d&quot;&gt;5005eb&lt;/a&gt;) 中的相关代码和注释&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;python
+parser = argparse.ArgumentParser()
+parser.add_argument(&#39;-o&#39;, &#39;--overwrite&#39;, help=&#39;overwrite on SUMMARY.md&#39;, 
+                    action=&quot;store_true&quot;) # 定义 overwrite 参数
+parser.add_argument(&#39;directory&#39;, help=&#39;the directory of your GitBook root&#39;) # 定义 directory 参数
+args = parser.parse_args() # Convert argument strings to objects and assign them as attributes of the namespace. Return the populated namespace.
+overwrite = args.overwrite
+dir_input = args.directory
+if args.overwrite:
+    print(dir_input, &#39;overwrite&#39;)
+else:
+    print(dir_input)
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;MVP:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;argparse.ArgumentParser()&lt;/li&gt;
+  &lt;li&gt;ArgumentParser.add_argument()&lt;/li&gt;
+  &lt;li&gt;ArgumentParser.parse_args()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;References&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/3/howto/argparse.html&quot;&gt;Argparse Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/3/library/argparse.html&quot;&gt;argparse - py std lib&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2015 07:21:54 +0800</pubDate>
+        <link>/2015/08/02/argparse/</link>
+        <guid isPermaLink="true">/2015/08/02/argparse/</guid>
+        
+        
+        <category>programming</category>
+        
+        <category>python</category>
+        
+      </item>
     
       <item>
         <title>Status Anxiety 身份的焦虑</title>
@@ -189,12 +345,107 @@ folder tree:
       </item>
     
       <item>
+        <title>理性之心</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#section&quot;&gt;理性之心&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-1&quot;&gt;重现性&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-2&quot;&gt;可证伪性&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-3&quot;&gt;理性(科学)的疆域&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#section-4&quot;&gt;从语言的限制谈科学与宗教的区别&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-5&quot;&gt;理性: 戴上镣铐跳舞&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#section-6&quot;&gt;返场: 理性的自我否定?&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;理性之心&lt;/h1&gt;
+
+&lt;p&gt;以后的十年中, 你经过了长期的自然科学训练. 最终, 有一天你忽然发现, 理性的思维方式已经成为了你的本能, 也是你面对未知世界的最好态度. 我们不妨先聊聊, 理性是什么.&lt;/p&gt;
+
+&lt;p&gt;我以为, 理性有两个最主要的特点：重现性, 可证伪性. &lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;重现性&lt;/h2&gt;
+
+&lt;p&gt;重现性 (reproducibility)：&lt;strong&gt;不同人在不同时间采用同样的方法进行验证, 可得到相同的结果&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;重现性的本质也许是&lt;strong&gt;真实性&lt;/strong&gt;, 即我们朴素的认为, 真实是可以在实证中被重现的（但这个假设的真实性, 即“存在重现性”无法在绝大多数体系内被证明）. &lt;/p&gt;
+
+&lt;p&gt;重现性主要包括两重含义, 可验证性和一致性. &lt;/p&gt;
+
+&lt;p&gt;以“苹果会从树上落到地上”为例: &lt;br /&gt;
+- 可验证性即我们（理论上）可以对此进行验证, 即找一棵苹果树进行观测, 或者建立模型, 自己在树枝上放个苹果来模拟（但这个模拟的可靠性是存疑的）. 
+- 一致性即不管是谁（观察者）在什么时间（时间）来做出观测, “苹果从树上落到地上, 或者没有落到地上”这个观测的结果（通常）是一致的. &lt;/p&gt;
+
+&lt;p&gt;科学技术在近几个世纪得到快速发展, 最重要的原因就在于重现性. 只有用重现性作为保证, 我们才可以“站在巨人的肩膀上”, 即把不同的人做出的尝试可靠地传承. 试想如果有一个平行世界之中, 苹果在牛顿的时代掉到地上, 在爱因斯坦的时代悬浮在空中, 在今天则是悬浮一会儿之后绕着苹果树转圈, 那么我们就不可能对“苹果会从树上落到地上”做出一致性的判断. 重现性的理性科学研究极大加快了人类整体经验的积累, 也极大提高了人类的生产力.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;可证伪性&lt;/h2&gt;
+&lt;p&gt;可证伪性 (falsifiability)：即我们在理性分析时探讨的命题, 在语义和实证两方面都有被证实是错误的可能. 
+例如“转基因大豆无害”是一个可证伪的命题. “而转基因大豆有害”则是一个在经验归纳体系下不可证伪的命题. &lt;/p&gt;
+
+&lt;p&gt;由于我们在实证层面中无法穷举无限, 穷举法和简单的归纳法对于无限是无效的. &lt;/p&gt;
+
+&lt;p&gt;因此, 如果我们的研究手段限于穷举和归纳法, 那么有两类问题是无法解决的:
+1. 全体属性证实：“所有天鹅都是白的”“所有转基因大豆在各个方面都无害”——这是前面的命题的一种语义上更加确切的表述. 
+2. 存在性证伪：“存在黑天鹅/绿天鹅/粉天鹅”“存在（至少一种）转基因大豆, （在至少一个方面）有害”. 
+我个人倾向于认为这两类命题是无效的 (invalid), 而不能判断它们的真伪. &lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;理性(科学)的疆域&lt;/h2&gt;
+&lt;p&gt;考虑以下几个命题：&lt;br /&gt;
+1. 太阳系的中心是地球. （属于科学的研究范围）&lt;br /&gt;
+2. 存在一个上帝, 上帝创造了人类. （实证上不可证伪）&lt;br /&gt;
+3. 世界是善意的. （命题在语义上存在问题——普遍观点中, “善意的”的修饰对象不包括世界, 需要先给出重现性的定义. ）&lt;/p&gt;
+
+&lt;p&gt;上面的命题在自然语言中都并没有语法错误. 但是, 后两个命题在理性讨论中不可能得到重现和可证伪的回答.&lt;/p&gt;
+
+&lt;p&gt;为了保证理性(科学)的重现性和可证伪性, 我们做出了如下牺牲：
+**理性的疆域是有限的. 科学也不能描述我们想知道的一切. **好在现有的科学似乎还只是其中非常非常小的一点点, 我们还有无尽的未知可以去探索. &lt;/p&gt;
+
+&lt;p&gt;另外, 科学的存在性——即存在重现且可证伪的命题, 在绝大多数实证的体系内是不能被证明的（数学的情况则不同, 因为体系是可以定义的）. 因此, 我们只能选择“相信”或者“不相信”科学, 而这个选择确定是&lt;strong&gt;非理性&lt;/strong&gt;的. &lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;从语言的限制谈科学与宗教的区别&lt;/h3&gt;
+&lt;p&gt;如果我们从理性语言的限制来考虑, 也很容易理解科学与宗教的不同.&lt;/p&gt;
+
+&lt;p&gt;重现性方面, 宗教的结论和命题, 对于不同观察者, 或者是同一个人在不同的时间（如不同的生活阶段）来说, 可能是不同的； &lt;br /&gt;
+可证伪性方面, 宗教之中常常使用自然语言定义很多不可证伪的命题. &lt;/p&gt;
+
+&lt;p&gt;当然, 宗教和迷信因此获得了无所不能的力量–就是不保证“正确”. &lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;理性: 戴上镣铐跳舞&lt;/h2&gt;
+&lt;p&gt;理性(和科学)如同一门程序设计语言. 我们必须接受它的限制才能使用它; 与此同时, 我们却也避开了自然语言中暗藏的种种诡计. &lt;/p&gt;
+
+&lt;p&gt;把每个个体的思考与尝试, 转化为可重现, 可证伪的经验, 与全人类共享, 这也许是理性和科学对人类整体的最大意义.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;返场: 理性的自我否定?&lt;/h3&gt;
+&lt;p&gt;文中牵扯到很多概念的界定并不清晰(比如上面一段的“正确”). 因此值得指出的是, 诸如“重现”“可证伪”等概念的精确定义, 本文目前尚未包含. 
+（事实上, 集合论的发展史似乎在告诉我们, “存在重现的概念的体系”本身的存在性, 很多时候不能在体系内得到证明. 个人倾向于认为在现实世界中, 绝大部分具有实证意义的概念的边界不是一致确定的, 但可以通过实证来得到近似解. ）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;&lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;本&lt;span xmlns:dct=&quot;http://purl.org/dc/terms/&quot; href=&quot;http://purl.org/dc/dcmitype/Text&quot; rel=&quot;dct:type&quot;&gt;作品&lt;/span&gt;采用&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jul 2015 07:21:54 +0800</pubDate>
+        <link>/2015/07/19/rationality/</link>
+        <guid isPermaLink="true">/2015/07/19/rationality/</guid>
+        
+        
+        <category>写给十年前的自己</category>
+        
+        <category>理性之心</category>
+        
+      </item>
+    
+      <item>
         <title>Hello world</title>
         <description>
 &lt;p&gt;Hello world&lt;/p&gt;
 
 &lt;p&gt;From Frank the Obscure @ GitHub&lt;/p&gt;
 
+&lt;p&gt;嗯, 从这里开始, 记录点滴. 希望我的思考和写作能给自己, 也给世界带来一些乐趣 :)&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jul 2015 07:14:54 +0800</pubDate>
         <link>/2015/07/14/hello-world/</link>
@@ -202,6 +453,125 @@ folder tree:
         
         
         <category>miscellaneous</category>
+        
+      </item>
+    
+      <item>
+        <title>语言的诡计</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#section&quot;&gt;语言的诡计&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-1&quot;&gt;1. 三类命题: 我们说的话只有对与错吗?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-2&quot;&gt;2. 一语成真: 语言与咒语&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-3&quot;&gt;3. 悲喜由心: 建构事件意义&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-4&quot;&gt;4. 破题: 真实与快乐&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-5&quot;&gt;尾声: 生活还要继续&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;语言的诡计&lt;/h1&gt;
+
+&lt;p&gt;一切思想的载体首先是语言, 自然语言是人与人交流的基石. 当我发现承载自己想法和行动的语言中竟然有这么基础而重大的问题时, 就决定一定要把它写下来, 作为理性之心的引子. 理性, 从语言开始.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;1. 三类命题: 我们说的话只有对与错吗?&lt;/h2&gt;
+
+&lt;p&gt;我们习惯把生活中说的话分为对和错. 比如, 1+1=2是对的, 公鸡会打鸣是对的; 而1+1=3, 母鸡会打鸣则是错的. 如果用稍微严格一些的语言, 我们常把命题分为真命题与伪命题. &lt;/p&gt;
+
+&lt;p&gt;现在, 请看下面几句话, 它们是对的还是错的呢? &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;1+1=苹果&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1+苹果=2&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;公鸡喜欢打鸣.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;当然不对! 但是这几句话, 很可能让你感到有些诡异. 它们肯定不是真命题, 但是好像也和前面的伪命题不太一样. 下面, 我们就试着分析一下这几个命题到底哪里奇怪.&lt;/p&gt;
+
+&lt;p&gt;“1+1=苹果”. 我们通常理解之中, 1+1应该得到一个数字, 而这个命题却写了个苹果在等号右边. 也就是说, 这里出现的表达方式并不&lt;strong&gt;合法&lt;/strong&gt;. 换一个例子就更明显了: 1+1=&lt;em&gt;开心&lt;/em&gt;. 同样地, 后面两句话中, 我们通常不能把数字和水果相加, 也不会用”喜欢”评价一只公鸡做什么事情. 因此, 这几句话的诡异之处就浮现出来了. 语言中的每个概念都大致有着自己的”法则”, 当我们按照法则给出一个不正确的答案时, 我们得到的是伪命题; 而当我们&lt;strong&gt;完全不按法则行事&lt;/strong&gt;, 说出一些不合法的话时, 这样的话似乎也不适合称作伪命题, 不妨把它们叫作无效命题(invalid argument).&lt;/p&gt;
+
+&lt;p&gt;如果你还记得中学里的数学证明, 或者懂一点程序设计语言, 就很容易理解无效命题的概念. 在严格的数学语言和程序设计语言之中, 这类无效命题从来不会成功运行. “类型错误”就是最常见的一种结果. 但在使用自然语言时, 我们的大脑中没有时刻保持理性的编译器, 自然也不能发现每一个无效命题了. 所以, 诸如”酸溜溜的天空”, ”善意的世界”, ”带着浓浓恶意的地铁”之类的话, 就时常在我们的生活中出现了.[1]&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;2. 一语成真: 语言与咒语&lt;/h2&gt;
+
+&lt;p&gt;上面我们讨论了自然语言中的无效命题. 那么, 无效命题既然普遍存在, 对我们有什么影响呢?&lt;/p&gt;
+
+&lt;p&gt;我们的大脑似乎并不擅长区分有效命题和无效命题, 因此, 当我们听到无效命题时, 大脑也会不加区分地把信息接收进来, 甚至形成记忆. &lt;/p&gt;
+
+&lt;p&gt;“今年过节不收礼, 收礼只收脑白金”, 稍加思考, 就容易发现这句话的逻辑漏洞很多: 上半句不收礼, 下半句又收礼; 收礼选择很多, 为什么我就只收脑白金呢? 但我们的大脑通常不那么较真, 于是经过几百次洗脑之后, 这个概念竟然也就进入了我们的记忆之中, 当我们真的送礼的时候, 甚至还就送了脑白金! &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一句话说出来之后, 就可能变成了咒语.&lt;/strong&gt;咒语本身并无对错, 但如果我们的大脑把咒语当成真话[2], 咒语就一语成真, 真的改变了我们的生活.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;3. 悲喜由心: 建构事件意义&lt;/h2&gt;
+
+&lt;p&gt;我们可以粗略地按时间顺序, 把客观事件对我们的影响按照&lt;code&gt;事件-&amp;gt;意识-&amp;gt;感受&lt;/code&gt;分成两个过程. 无效命题不仅可能混淆事物的真假, 还会影响我们意识层面对客观事件的解释.&lt;/p&gt;
+
+&lt;p&gt;比如前文提到的例子”善意的世界”就可能会影响我们对客观的理解. 如果我们觉得世界是善意的(注意这里我们先不谈这句话的正误和是否有效), 那么我们有可能会把事件理解得积极一些. 同样遇到很热的天气, 有的人可能会觉得这并没什么特别的, 把它当作一种人生经验, 有的人则会觉得苍天不公, 让自己遭受如此煎熬. 这两种感受产生的情绪就很不相同. [3]&lt;/p&gt;
+
+&lt;p&gt;视角对一个群体也时常产生重大影响. 一个很近的例子就是积极心理学的产生与发展, 当人们把注意力从”消减负面情绪”转向”激发正面情绪”时, 就有了很多前人完全没有想象过的新发现, 而这些发现, 对于整个人类社会的发展, 也许都有着深远的价值.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;4. 破题: 真实与快乐&lt;/h2&gt;
+
+&lt;p&gt;语言就是这样, 在不知不觉之中让我们进入了一个模糊而复杂的世界. 当我们用理性仔细审视自然语言时, 就会发现其中的种种诡计. &lt;/p&gt;
+
+&lt;p&gt;那么, 如何减少自然语言中的无效命题带来的不良影响呢? 如果我们想把客观世界看得更真实, 可以考虑以下的策略: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;启动理性模式, 分析话语细节. 我们可以按照系统化的惯例分析话语, 考虑其中各个概念的关系. 概念间的关系有效吗? 概念间的逻辑关系是什么, 是正确的吗, 有没有反例? &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;减少无效信息输入. 很遗憾的是, 我们的大脑似乎并不喜欢启动理性模式(参见卡尼曼《思考:快与慢》). 于是, 我们不可能把听到的每句话都仔细分析, 这样做既无时间, 也无必要. 因此, 一个比较现实的方案是只把理性用在重要的问题上, 同时通过简化我们生活中的信息源, 减少”脑白金”之类的无效信息输入. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;另一方面, 在意识解释事件的过程中, 如果我们巧妙利用自然语言带来的错觉, 甚至让它帮助我们. 如果我们把积极的心理暗示变成咒语, 就可以让它帮助我们行动. 执行意图(link)也可以看作这样的一个例子. 通过形如”如果回到家, 那么阅读半小时”的行动指南, 我们把注意力集中在具体的行动, 从而提高了行动的可能.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;尾声: 生活还要继续&lt;/h2&gt;
+
+&lt;p&gt;语言的诡计无影无形, 像背景音乐般存在于我们的生活之中. 当我们发现其中的不和谐与不理性时, 就开启了一扇通向理性与真实的大门. 然而, 这并不意味着我们要放弃自然语言(事实上也不可能). 注意到自然语言中的那些细节, 甚至创造性地利用它, 我们的生活也许就会变得更真实也更快乐.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;尾注:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;刻意使用超出概念类型的话, 还成为了我们表达情感时常用的一些修辞手法: 如拟人, 通感.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;似乎我们的大脑在大部分时候并不在意话语是否有效, 是否正确. 我们更在意的是, 自己是否&lt;strong&gt;喜欢&lt;/strong&gt;听到这样的话语. 也就是说, 大多数人只是想听到自己想听到的东西罢了. 也许, 这就是很多逻辑漏洞百出的段子, 鸡汤, 成功学被人们喜爱的主要原因. 毕竟, 长时间周期的耐心, 似乎还不是人类的天赋技能; 而不付出任何代价的速成法门, 则人人都想知道.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;但世界只是客观存在, 用”善意”或者”恶意”形容它, 恐怕是把自己当作了宇宙中心, 认为一切事物都要围着自己转的自大行为吧…仔细想想不由很是惶恐. 自身与环境的关系, 永远是人生观的最基本问题之一.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;更多相关阅读: &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://zhi.hu/2jk2&quot;&gt;世界是善意的吗? - 知乎 - 罗心澄的回答&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://zhuanlan.zhihu.com/lswlsw/19978140&quot;&gt;一个咒语的诞生 - 李松蔚&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;&lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;本&lt;span xmlns:dct=&quot;http://purl.org/dc/terms/&quot; href=&quot;http://purl.org/dc/dcmitype/Text&quot; rel=&quot;dct:type&quot;&gt;作品&lt;/span&gt;采用&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2015 07:21:54 +0800</pubDate>
+        <link>/2015/07/12/language-secret/</link>
+        <guid isPermaLink="true">/2015/07/12/language-secret/</guid>
+        
+        
+        <category>写给十年前的自己</category>
+        
+        <category>理性之心</category>
         
       </item>
     
@@ -374,7 +744,7 @@ folder tree:
         <guid isPermaLink="true">/2015/06/14/study-under-uncertainty/</guid>
         
         
-        <category>写给16岁的自己</category>
+        <category>写给十年前的自己</category>
         
         <category>study</category>
         
@@ -507,6 +877,8 @@ folder tree:
         <category>python</category>
         
         <category>study</category>
+        
+        <category>programming</category>
         
       </item>
     
