@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Python 机器学习: 从0到1"
-date: 2015-09-12
-categories: 机器学习 Python
+date: 2015-09-12 14:30:00
+categories: 机器学习 Python machine-learning
 excerpt: Python 机器学习: 从0到1
 ---
 
