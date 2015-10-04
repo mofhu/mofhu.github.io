@@ -106,13 +106,13 @@
       <hr>
       <article>
         <ul id="markdown-toc">
-  <li><a href="#python--01">Python 机器学习: 从0到1</a>    <ul>
-      <li><a href="#section">原理</a></li>
-      <li><a href="#section-1">流程</a></li>
-      <li><a href="#section-2">生态系统</a></li>
-      <li><a href="#section-3">第一个版本</a></li>
-      <li><a href="#section-4">小结</a></li>
-      <li><a href="#section-5">参考资料和补充阅读</a></li>
+  <li><a href="#python--01" id="markdown-toc-python--01">Python 机器学习: 从0到1</a>    <ul>
+      <li><a href="#section" id="markdown-toc-section">原理</a></li>
+      <li><a href="#section-1" id="markdown-toc-section-1">流程</a></li>
+      <li><a href="#section-2" id="markdown-toc-section-2">生态系统</a></li>
+      <li><a href="#section-3" id="markdown-toc-section-3">第一个版本</a></li>
+      <li><a href="#section-4" id="markdown-toc-section-4">小结</a></li>
+      <li><a href="#section-5" id="markdown-toc-section-5">参考资料和补充阅读</a></li>
     </ul>
   </li>
 </ul>
@@ -135,7 +135,7 @@
 <p>机器学习 (machine learning) 三问:</p>
 
 <ul>
-  <li>机器学习是什么? </li>
+  <li>机器学习是什么?</li>
 </ul>
 
 <p><strong>一段可以从已知数据中”学习”, 随后预测未知数据的算法.</strong></p>
@@ -145,7 +145,7 @@
 <p>抽象: 我们有训练集 <code>X_train</code>, <code>y_train</code>, 测试集 <code>X_test</code>. 机器学习, 即用 <code>X_train</code>, <code>y_train</code> 得到二者(可能的)关系, 再从 <code>X_test</code> 预测 y_test 的过程.</p>
 
 <ul>
-  <li>为什么要用机器学习? </li>
+  <li>为什么要用机器学习?</li>
 </ul>
 
 <p>大量数据人类处理起来非常困难, 也不现实. 如果机器学习可以为我们处理这些数据, 就可能发挥出极大的作用. 如大量文本的 OCR, 自动语音识别, 根据购买记录为每个人推荐可能喜欢的商品等等.</p>
@@ -153,10 +153,10 @@
 <p>以及, 人工智能的梦想.</p>
 
 <ul>
-  <li>怎么实现机器学习? </li>
+  <li>怎么实现机器学习?</li>
 </ul>
 
-<p>很多种算法, 很多种程序设计语言都可以进行机器学习工程实践. </p>
+<p>很多种算法, 很多种程序设计语言都可以进行机器学习工程实践.</p>
 
 <p>在 Python 中, 已有成熟的各类算法包, 其中最著名的是 <a href="http://scikit-learn.org/stable/index.html">scikit-learn</a> 提供的各种常用算法的黑箱版本实现.</p>
 
@@ -201,9 +201,9 @@
 
 <p>那么, 我们需要把什么数据格式送到 scikit-learn 中呢?</p>
 
-<p>实际上只需要送两个变量 X, y </p>
+<p>实际上只需要送两个变量 X, y</p>
 
-<p>X 是 m*n 矩阵(数据结构是二维数组/嵌套列表), 其中 m 是样本数量, n 是特征数量; </p>
+<p>X 是 m*n 矩阵(数据结构是二维数组/嵌套列表), 其中 m 是样本数量, n 是特征数量;</p>
 
 <ul>
   <li>常用格式为 numpy.ndarray</li>
@@ -254,7 +254,7 @@ array([ 0.5,  0.5])
 
 <p>```python
 from sklearn.externals import joblib
-joblib.dump(clf, ‘filename.pkl’) </p>
+joblib.dump(clf, ‘filename.pkl’)</p>
 
 <p>clf = joblib.load(‘filename.pkl’) 
 ```</p>
@@ -273,7 +273,7 @@ joblib.dump(clf, ‘filename.pkl’) </p>
 
 <ul>
   <li><a href="https://www.coursera.org/learn/machine-learning">斯坦福大学 Angrew Ng 的机器学习课程</a></li>
-  <li><a href="http://blog.jobbole.com/67616/">有趣的机器学习：最简明入门指南</a> </li>
+  <li><a href="http://blog.jobbole.com/67616/">有趣的机器学习：最简明入门指南</a></li>
 </ul>
 
 <hr />
