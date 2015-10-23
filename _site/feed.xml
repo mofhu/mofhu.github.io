@@ -5,9 +5,116 @@
     <description>无名的弗兰克</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Oct 2015 21:33:45 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Oct 2015 21:33:45 +0800</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2015 23:21:52 +0800</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2015 23:21:52 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>机器学习2：常用算法入门小结</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;机器学习2：常用算法入门小结&lt;/h1&gt;
+
+&lt;p&gt;匆匆刷过了著名的机器学习课程(link)，本文记录一下学习经验。当然，这篇文章的前几稿必定不很靠谱。不过，只有经过这些粗糙的文字，才能迭代出更精准的思考。请各位读者不吝赐教。&lt;/p&gt;
+
+&lt;h2 id=&quot;supervised-learning&quot;&gt;有监督学习 supervised learning&lt;/h2&gt;
+
+&lt;h3 id=&quot;linear-regression&quot;&gt;线性回归 linear regression&lt;/h3&gt;
+&lt;p&gt;最基本的回归算法。优化对象是 &lt;code&gt;误差的平方和&lt;/code&gt;。 其实就是我们熟知的最小二乘法。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;优点：算法和实现极其简单；速度快；low-variance&lt;/li&gt;
+  &lt;li&gt;缺点：只能处理线性关系；复杂关系时 high-bias&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;求解可用梯度下降(gradient descent)或者直接计算(normal equation)。前者需要参数归一化，后者对于大量样本计算量较大。&lt;/p&gt;
+
+&lt;p&gt;延伸： 可添加高阶项和相互作用项，但可能遇到的问题是特征数量剧增(特别是相互作用项)。如5个特征的二次项就有5+10+5=20个；而100个特征的二次项就多达100+4950+100=5150个。另一个问题是特征过多可能造成过拟合，可引入正则化系数降低影响。&lt;/p&gt;
+
+&lt;h3 id=&quot;logistic-regression&quot;&gt;逻辑回归 logistic regression&lt;/h3&gt;
+
+&lt;p&gt;虽然名字里面有回归，但逻辑回归是一种分类算法。基于sigmoid函数。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;优点：相对简单，计算量小；可以给出概率解释；&lt;/li&gt;
+  &lt;li&gt;缺点：只能进行线性分类。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;neuron-network&quot;&gt;神经网络 neuron network&lt;/h3&gt;
+
+&lt;p&gt;模拟神经元层级网络的算法结构。基础单元是单个节点，通过简单响应函数的组合可以学习复杂的变量关系（如从基本的与/或/非组成异或等复杂的逻辑关系）。多层的神经网络也被称为深度学习。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;优点：可学习复杂的非线性关系&lt;/li&gt;
+  &lt;li&gt;缺点：实现相对复杂；计算量大；结果的含义无法解释&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;support-vector-machine&quot;&gt;支持向量机 support vector machine&lt;/h3&gt;
+
+&lt;p&gt;与前面的算法关注整体不同的是，支持向量机更关注分隔界面附近的样本，算法最大化分隔界面与附近的支持向量间的距离。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;优点：通过核函数可学习非线性关系；&lt;/li&gt;
+  &lt;li&gt;缺点：速度慢；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;unsupervised-learning&quot;&gt;无监督学习 unsupervised learning&lt;/h2&gt;
+
+&lt;h3 id=&quot;k-k-means&quot;&gt;k均值 k-means&lt;/h3&gt;
+
+&lt;p&gt;cluster算法，把样本根据几何距离分成k组（因此各个特征一定要归一化）。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;优点：易于理解；&lt;/li&gt;
+  &lt;li&gt;缺点：只能按距离分组，对于其它类型数据的适应性差&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;principal-component-analysis&quot;&gt;主成分分析 principal component analysis&lt;/h3&gt;
+
+&lt;p&gt;采用正交化变换，把原有数据转换为一组标准正交基，并且按照对方差贡献多少排序。通常前几个主成分就可以解释绝大部分的方差，因此主成分分析常用于减少特征数量（降维）。当数据简化为2-3维时，我们可以有效可视化，对样本产生整体的理解。（可视化在机器学习系统设计初期往往十分重要）&lt;/p&gt;
+
+&lt;h3 id=&quot;collabrating-filtering&quot;&gt;协同过滤 collabrating filtering&lt;/h3&gt;
+
+&lt;p&gt;常用于推荐系统(recommender system)。解决的问题是如何填充某些元素缺失的矩阵（如用户-评分矩阵）。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;小结：算法之外&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;特征&lt;/h3&gt;
+
+&lt;p&gt;事实上，在很多机器学习问题之中，不同算法的表现大致相当，决定系统表现的关键往往是&lt;code&gt;特征设计&lt;/code&gt;。好的特征常比好的算法更重要。另一方面，由于算法大多基于成熟的算法包(如scikit-learn in python)，实际上选择算法并不需要太多时间。针对实际数据调参和特征设计是机器学习中的主要内容。&lt;/p&gt;
+
+&lt;p&gt;那么，如何寻找好的特征呢？似乎并没有通用的方法，理解业务目标、理解数据、系统测试，也许是一些可行的方案。特征工程也许需要相当的实际工程经验。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;机器学习系统的评估&lt;/h3&gt;
+
+&lt;p&gt;Andrew Ng 在课程中反复提到：机器学习任务中，最宝贵的资源是&lt;code&gt;工程师的时间&lt;/code&gt;。我们有必要通过各种评估方法，确认自己的算法正在正确的道路上前进。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;可视化: 我们更擅长观察图形，而非数据，样本量大时更是如此。可视化是我们理解数据和算法效果的最佳工具。&lt;/li&gt;
+  &lt;li&gt;cross validation: 为了避免过拟合，我们不应在机器学习过程中使用test set的数据。需要优化参数时，应从training set中分出部分数据(常用比例为training set: CV set: test set = 60%:20%:20%)。&lt;/li&gt;
+  &lt;li&gt;learning curve: 通过比较 J(train) 和 J(test) ，我们可以判断算法是 high bias 还是 high vaviance。&lt;/li&gt;
+  &lt;li&gt;ceiling analysis: 通过人工标记给出100%正确的中间结果，可判断算法系统流程(pipeline)中的短板。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一些更复杂的算法，如基于决策树的随机森林/AdaBoost，等到有经验再来描述。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;reference:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Andrew Ng: coursera course&lt;/li&gt;
+  &lt;li&gt;machine learning in action&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 20 Oct 2015 06:39:54 +0800</pubDate>
+        <link>/2015/10/20/ml-algorithms/</link>
+        <guid isPermaLink="true">/2015/10/20/ml-algorithms/</guid>
+        
+        
+        <category>机器学习</category>
+        
+        <category>machine-learning</category>
+        
+      </item>
     
       <item>
         <title>杂谈大道理</title>
@@ -773,100 +880,6 @@ folder tree:
         <category>programming</category>
         
         <category>python</category>
-        
-      </item>
-    
-      <item>
-        <title>理性之心</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;理性之心&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;重现性&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;可证伪性&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;理性(科学)的疆域&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-4&quot; id=&quot;markdown-toc-section-4&quot;&gt;从语言的限制谈科学与宗教的区别&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-5&quot; id=&quot;markdown-toc-section-5&quot;&gt;理性: 戴上镣铐跳舞&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-6&quot; id=&quot;markdown-toc-section-6&quot;&gt;返场: 理性的自我否定?&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;section&quot;&gt;理性之心&lt;/h1&gt;
-
-&lt;p&gt;以后的十年中, 你经过了长期的自然科学训练. 最终, 有一天你忽然发现, 理性的思维方式已经成为了你的本能, 也是你面对未知世界的最好态度. 我们不妨先聊聊, 理性是什么.&lt;/p&gt;
-
-&lt;p&gt;我以为, 理性有两个最主要的特点：重现性, 可证伪性.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;重现性&lt;/h2&gt;
-
-&lt;p&gt;重现性 (reproducibility)：&lt;strong&gt;不同人在不同时间采用同样的方法进行验证, 可得到相同的结果&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;重现性的本质也许是&lt;strong&gt;真实性&lt;/strong&gt;, 即我们朴素的认为, 真实是可以在实证中被重现的（但这个假设的真实性, 即“存在重现性”无法在绝大多数体系内被证明）.&lt;/p&gt;
-
-&lt;p&gt;重现性主要包括两重含义, 可验证性和一致性.&lt;/p&gt;
-
-&lt;p&gt;以“苹果会从树上落到地上”为例: &lt;br /&gt;
-- 可验证性即我们（理论上）可以对此进行验证, 即找一棵苹果树进行观测, 或者建立模型, 自己在树枝上放个苹果来模拟（但这个模拟的可靠性是存疑的）. 
-- 一致性即不管是谁（观察者）在什么时间（时间）来做出观测, “苹果从树上落到地上, 或者没有落到地上”这个观测的结果（通常）是一致的.&lt;/p&gt;
-
-&lt;p&gt;科学技术在近几个世纪得到快速发展, 最重要的原因就在于重现性. 只有用重现性作为保证, 我们才可以“站在巨人的肩膀上”, 即把不同的人做出的尝试可靠地传承. 试想如果有一个平行世界之中, 苹果在牛顿的时代掉到地上, 在爱因斯坦的时代悬浮在空中, 在今天则是悬浮一会儿之后绕着苹果树转圈, 那么我们就不可能对“苹果会从树上落到地上”做出一致性的判断. 重现性的理性科学研究极大加快了人类整体经验的积累, 也极大提高了人类的生产力.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;可证伪性&lt;/h2&gt;
-&lt;p&gt;可证伪性 (falsifiability)：即我们在理性分析时探讨的命题, 在语义和实证两方面都有被证实是错误的可能. 
-例如“转基因大豆无害”是一个可证伪的命题. “而转基因大豆有害”则是一个在经验归纳体系下不可证伪的命题.&lt;/p&gt;
-
-&lt;p&gt;由于我们在实证层面中无法穷举无限, 穷举法和简单的归纳法对于无限是无效的.&lt;/p&gt;
-
-&lt;p&gt;因此, 如果我们的研究手段限于穷举和归纳法, 那么有两类问题是无法解决的:
-1. 全体属性证实：“所有天鹅都是白的”“所有转基因大豆在各个方面都无害”——这是前面的命题的一种语义上更加确切的表述. 
-2. 存在性证伪：“存在黑天鹅/绿天鹅/粉天鹅”“存在（至少一种）转基因大豆, （在至少一个方面）有害”. 
-我个人倾向于认为这两类命题是无效的 (invalid), 而不能判断它们的真伪.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;理性(科学)的疆域&lt;/h2&gt;
-&lt;p&gt;考虑以下几个命题：&lt;br /&gt;
-1. 太阳系的中心是地球. （属于科学的研究范围）&lt;br /&gt;
-2. 存在一个上帝, 上帝创造了人类. （实证上不可证伪）&lt;br /&gt;
-3. 世界是善意的. （命题在语义上存在问题——普遍观点中, “善意的”的修饰对象不包括世界, 需要先给出重现性的定义. ）&lt;/p&gt;
-
-&lt;p&gt;上面的命题在自然语言中都并没有语法错误. 但是, 后两个命题在理性讨论中不可能得到重现和可证伪的回答.&lt;/p&gt;
-
-&lt;p&gt;为了保证理性(科学)的重现性和可证伪性, 我们做出了如下牺牲：
-**理性的疆域是有限的. 科学也不能描述我们想知道的一切. **好在现有的科学似乎还只是其中非常非常小的一点点, 我们还有无尽的未知可以去探索.&lt;/p&gt;
-
-&lt;p&gt;另外, 科学的存在性——即存在重现且可证伪的命题, 在绝大多数实证的体系内是不能被证明的（数学的情况则不同, 因为体系是可以定义的）. 因此, 我们只能选择“相信”或者“不相信”科学, 而这个选择确定是&lt;strong&gt;非理性&lt;/strong&gt;的.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-4&quot;&gt;从语言的限制谈科学与宗教的区别&lt;/h3&gt;
-&lt;p&gt;如果我们从理性语言的限制来考虑, 也很容易理解科学与宗教的不同.&lt;/p&gt;
-
-&lt;p&gt;重现性方面, 宗教的结论和命题, 对于不同观察者, 或者是同一个人在不同的时间（如不同的生活阶段）来说, 可能是不同的； &lt;br /&gt;
-可证伪性方面, 宗教之中常常使用自然语言定义很多不可证伪的命题.&lt;/p&gt;
-
-&lt;p&gt;当然, 宗教和迷信因此获得了无所不能的力量–就是不保证“正确”.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-5&quot;&gt;理性: 戴上镣铐跳舞&lt;/h2&gt;
-&lt;p&gt;理性(和科学)如同一门程序设计语言. 我们必须接受它的限制才能使用它; 与此同时, 我们却也避开了自然语言中暗藏的种种诡计.&lt;/p&gt;
-
-&lt;p&gt;把每个个体的思考与尝试, 转化为可重现, 可证伪的经验, 与全人类共享, 这也许是理性和科学对人类整体的最大意义.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-6&quot;&gt;返场: 理性的自我否定?&lt;/h3&gt;
-&lt;p&gt;文中牵扯到很多概念的界定并不清晰(比如上面一段的“正确”). 因此值得指出的是, 诸如“重现”“可证伪”等概念的精确定义, 本文目前尚未包含. 
-（事实上, 集合论的发展史似乎在告诉我们, “存在重现的概念的体系”本身的存在性, 很多时候不能在体系内得到证明. 个人倾向于认为在现实世界中, 绝大部分具有实证意义的概念的边界不是一致确定的, 但可以通过实证来得到近似解. ）&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;&lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;本&lt;span xmlns:dct=&quot;http://purl.org/dc/terms/&quot; href=&quot;http://purl.org/dc/dcmitype/Text&quot; rel=&quot;dct:type&quot;&gt;作品&lt;/span&gt;采用&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。&lt;/p&gt;
-</description>
-        <pubDate>Sun, 19 Jul 2015 07:21:54 +0800</pubDate>
-        <link>/2015/07/19/rationality/</link>
-        <guid isPermaLink="true">/2015/07/19/rationality/</guid>
-        
-        
-        <category>写给十年前的自己</category>
-        
-        <category>理性之心</category>
         
       </item>
     
