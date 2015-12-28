@@ -1,22 +1,22 @@
 ---
 layout: post
-title: "Vi 入门小记"
+title: "Vim 入门小记"
 date: 2015-12-24 22:39:54
-categories: programming vi chaos
-excerpt: vi 入门小记
+categories: programming vim chaos
+excerpt: vim 入门小记
 ---
 
-# Vi 入门小记 / Chaos to vi
+# Vim 入门小记 / Chaos to vim
 
-- Outline: raw notes from chaos to vi
-- why vi? 为什么用 vi?
+- Outline: raw notes from chaos to vim
+- why vim? 为什么用 vim?
 - basic commands
 
-## Why vi?
+## Why vim?
 
 其实, 最简单的原因, 是没钱买 Sublime Text, 看交钱提醒看烦了...
 
-追溯到大一时候的计概课, 曾玩过 Emacs (那是遥远的2007年了), 不过 vi 一直没试过. 所以, 奇怪的下了决定开始折腾一番:)
+追溯到大一时候的计概课, 曾玩过 Emacs (那是遥远的2007年了), 不过 vi/vim 一直没试过. 所以, 奇怪的下了决定开始折腾一番:)
 
 ## 入门小记
 
@@ -25,9 +25,10 @@ excerpt: vi 入门小记
   - insert mode: 输入, normal mode 下 i R a A
   - command mode: 复杂命令, 如保存, 退出等.
 - 光标移动: normal mode 下
-  - hjkl 分别是四个基本光标移动操作
-  - c-f, c-b 上下翻页
-  - G, gg, #line g
+  - `hjkl` 分别是四个基本光标移动操作
+  - `c-f`, `c-b` 上下翻页
+  - `0`, `$` 分别是移动到本行开头和最后
+  - `G`, `gg`, #line g
 - 打开, 保存与退出
   - 在终端中, `vi [filename]`
   - 在vi 中, `:e`
@@ -45,3 +46,4 @@ excerpt: vi 入门小记
 - vim tutor: `vimtutor` in terminal
 - [鸟哥的 vim 介绍](http://linux.vbird.org/linux_basic/0310vi.php)
 - [spf13-vim @ GitHub](https://github.com/spf13/spf13-vim)
+  - 这里是一个 vim 的配置版本, 暂时先用着, 毕竟自己从零开始配置 .vimrc 还是有些太折腾了(重点是其实不会折腾)
