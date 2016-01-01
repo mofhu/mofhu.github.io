@@ -149,13 +149,13 @@
 
 <h2 id="how-to-begin-">how to begin? 怎么上手?</h2>
 
-<p>The <code>argparse</code> module makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments. [2]</p>
+<p>The <code class="highlighter-rouge">argparse</code> module makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments. [2]</p>
 
 <p>简单来说, argparse 可以帮助我们很容易的写出命令行交互界面(command-line interface), 并且可以自动生成很好的注释, 帮助及错误处理, 便于程序被大家(和自己)使用.</p>
 
 <p>在 GitBook auto summary (commit <a href="https://github.com/Frank-the-Obscure/GitBook-auto-summary/commit/5005ebf8c1baeb4a093ec263d6a3ad87ff5cc42d">5005eb</a>) 中的相关代码和注释</p>
 
-<p><code>python
+<p><code class="highlighter-rouge">python
 parser = argparse.ArgumentParser()
 parser.add_argument('-o', '--overwrite', help='overwrite on SUMMARY.md', 
                     action="store_true") # 定义 overwrite 参数
