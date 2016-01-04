@@ -5,8 +5,8 @@
     <description>无名的弗兰克</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Jan 2016 23:44:52 +0800</pubDate>
-    <lastBuildDate>Fri, 01 Jan 2016 23:44:52 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Jan 2016 23:49:58 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Jan 2016 23:49:58 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -63,9 +63,9 @@
         <guid isPermaLink="true">/2016/01/01/2015conclusions/</guid>
         
         
-        <category>总结</category>
+        <category>小结</category>
         
-        <category>2015</category>
+        <category>随笔</category>
         
       </item>
     
@@ -138,9 +138,11 @@
         
         <category>programming</category>
         
-        <category>vim</category>
+        <category>Vim</category>
         
         <category>chaos</category>
+        
+        <category>笔记</category>
         
       </item>
     
@@ -247,7 +249,9 @@
         
         <category>机器学习</category>
         
-        <category>machine-learning</category>
+        <category>programming</category>
+        
+        <category>笔记</category>
         
       </item>
     
@@ -513,7 +517,9 @@ joblib.dump(clf, ‘filename.pkl’)&lt;/p&gt;
         
         <category>Python</category>
         
-        <category>machine-learning</category>
+        <category>chaos</category>
+        
+        <category>笔记</category>
         
       </item>
     
@@ -629,6 +635,8 @@ joblib.dump(clf, ‘filename.pkl’)&lt;/p&gt;
         <category>写给十年前的自己</category>
         
         <category>理性之心</category>
+        
+        <category>随笔</category>
         
       </item>
     
@@ -836,6 +844,8 @@ else:
         <category>Programming</category>
         
         <category>Python</category>
+        
+        <category>笔记</category>
         
       </item>
     

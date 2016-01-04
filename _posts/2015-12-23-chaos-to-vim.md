@@ -2,8 +2,8 @@
 layout: post
 title: "Vim 入门小记"
 date: 2015-12-24 22:39:54
-categories: programming vim chaos
-excerpt: vim 入门小记
+categories: programming Vim chaos 笔记
+excerpt: Vim 入门小记
 ---
 
 # Vim 入门小记 / Chaos to vim

@@ -2,7 +2,7 @@
 layout: post
 title:  "返场: 理性的理性反思"
 date: 2015-08-22 23:21:54
-categories: 写给十年前的自己 理性之心
+categories: 写给十年前的自己 理性之心 随笔
 excerpt: 理性的理性反思
 ---
 

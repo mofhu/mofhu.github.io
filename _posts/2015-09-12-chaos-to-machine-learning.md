@@ -2,7 +2,7 @@
 layout: post
 title: "Python 机器学习: 从0到1"
 date: 2015-09-12 14:30:00
-categories: 机器学习 Python machine-learning
+categories: 机器学习 Python chaos 笔记
 excerpt: Python 机器学习 从0到1
 ---
 
