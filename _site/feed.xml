@@ -5,8 +5,8 @@
     <description>无名的弗兰克</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jan 2016 23:49:58 +0800</pubDate>
-    <lastBuildDate>Mon, 04 Jan 2016 23:49:58 +0800</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2016 22:49:57 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 22:49:57 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -109,7 +109,7 @@
       &lt;li&gt;在vi 中, &lt;code class=&quot;highlighter-rouge&quot;&gt;:e&lt;/code&gt;&lt;/li&gt;
       &lt;li&gt;保存: &lt;code class=&quot;highlighter-rouge&quot;&gt;:w&lt;/code&gt;&lt;/li&gt;
       &lt;li&gt;退出不保存: &lt;code class=&quot;highlighter-rouge&quot;&gt;:q&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;退出并保存: &lt;code class=&quot;highlighter-rouge&quot;&gt;:x&lt;/code&gt; 或 &lt;code class=&quot;highlighter-rouge&quot;&gt;:wq&lt;/code&gt;, 二者的区别是:x 只在文件变化时更新修改时间, :wq 则总会更新修改时间&lt;/li&gt;
+      &lt;li&gt;退出并保存: &lt;code class=&quot;highlighter-rouge&quot;&gt;:x&lt;/code&gt; 或 &lt;code class=&quot;highlighter-rouge&quot;&gt;:wq&lt;/code&gt; (二者的区别是:x 只在文件变化时更新修改时间, :wq 则总会更新修改时间)&lt;/li&gt;
       &lt;li&gt;退出并放弃修改: &lt;code class=&quot;highlighter-rouge&quot;&gt;:q!&lt;/code&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -119,11 +119,13 @@
 
 &lt;p&gt;总算可以开始用了(终于不像以前误入 vi 都不会退出了), 下面, 正如 vimtutor 所言, 只有在用中学才是科学的, 那么以后 Markdown (比如这篇)也要试着用 vi 来写喽 XD&lt;/p&gt;
 
+&lt;p&gt;另外, 命令不是用来背的, 在 Git cheat sheet 背面手写了 Vim cheat sheet 作为备忘录 :)&lt;/p&gt;
+
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;vim tutor: &lt;code class=&quot;highlighter-rouge&quot;&gt;vimtutor&lt;/code&gt; in terminal&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://linux.vbird.org/linux_basic/0310vi.php&quot;&gt;鸟哥的 vim 介绍&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://linux.vbird.org/linux_basic/0310vi.php&quot;&gt;鸟哥的 vim 介绍&lt;/a&gt;: cheat sheet 部分主要记录了鸟哥图中的命令&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/spf13/spf13-vim&quot;&gt;spf13-vim @ GitHub&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;这里是一个 vim 的配置版本, 暂时先用着, 毕竟自己从零开始配置 .vimrc 还是有些太折腾了(重点是其实不会折腾)&lt;/li&gt;
@@ -259,62 +261,75 @@
         <title>杂谈大道理</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;缘起&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;听过了许多大道理, 我们为什么仍然过不好这一生?&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;小事如何坚持&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;更大的图景: 如何行动&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-4&quot; id=&quot;markdown-toc-section-4&quot;&gt;事后验尸的智慧&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-5&quot; id=&quot;markdown-toc-section-5&quot;&gt;结语&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;听过了许多大道理, 我们为什么仍然过不好这一生?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;客观理性的反馈分析&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;结语&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-4&quot; id=&quot;markdown-toc-section-4&quot;&gt;未尽的话&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;缘起&lt;/h2&gt;
 
-&lt;p&gt;许久没写, 最近精力有些分散, 不妨借着记录最近的一些想法, 整理思绪, 也给自己补补能量.&lt;/p&gt;
+&lt;p&gt;许久没写, 最近精力有些分散, 时光匆匆流逝, 却感觉自己什么都没做, 不免有些焦虑和自责. 这篇文章的本意是借着记录最近的一些想法, 整理思绪, 也给自己补补能量.&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;听过了许多大道理, 我们为什么仍然过不好这一生?&lt;/h2&gt;
 
-&lt;p&gt;前一阵有一句话十分流行: “听过了许多大道理, 我们却仍然过不好这一生”. 这句话的流行, 大致是对当下盛行的成功学和心灵鸡汤的一种反省, 或许可以帮早已被大道理灌输得无感的年轻一代, 稍稍缓解一下心中的无力感.&lt;/p&gt;
+&lt;p&gt;前一阵有一句话十分流行: “听过了许多大道理, 我们却仍然过不好这一生”. 这句话的流行, 在我看来, 更像是对当下盛行的成功学和心灵鸡汤的一种反省, 或许可以帮早已被大道理灌输得无感的年轻一代, 稍稍缓解一下心中的无力感.&lt;/p&gt;
 
-&lt;p&gt;这里只想说说字面上的意思. 从 “听” 到 “做” , 字面上好像很自然就能完成(这或许是人们的一大错觉), 但真正做到绝非易事.&lt;/p&gt;
+&lt;p&gt;从 “听” 到 “做” , 字面上好像很自然就能完成, 但真正做到绝非易事. 
+事实上, 把听到或者看到的事情”脑补”为已经完成, 或许是导致人类诸多痛苦的一个错觉.&lt;/p&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;小事如何坚持&lt;/h3&gt;
+&lt;p&gt;如果我们反过来想, 做什么不能帮我们过好这一生呢? 
+我们很容易就会发现, 不论看多少”大道理”, 都不能直接促成我们的成长与变化, &lt;strong&gt;只有亲自行动才能产生新的结果&lt;/strong&gt;. 
+虽然行动不一定能保证得到我们想要的结果, 但是可以确定, 不行动什么都不会发生.&lt;/p&gt;
 
-&lt;p&gt;最近牙医建议我每天使用牙线, 这恐怕还远远算不得什么 “大道理”, 只是一个切实且科学的 “小建议”. 看上去也不难做到, 但真正动手去做时, 我发现这远比想一想难得多.&lt;/p&gt;
+&lt;p&gt;因此, 我们需要的绝不只是大道理, 还有行动的智慧.&lt;/p&gt;
 
-&lt;p&gt;坚持做看似平凡的小事情, 实际上需要非凡的耐心. 这点在李笑来老师的 &lt;em&gt;&lt;a href=&quot;http://book.douban.com/subject/3609132/&quot;&gt;把时间当作朋友&lt;/a&gt;&lt;/em&gt; 中也有提及. 看, 这个”大道理”, 我很早之前就听过了, 不过做起来的时候又如何呢?&lt;/p&gt;
+&lt;p&gt;成功学和鸡汤让我们感觉”似乎是那么回事, 可是怎么就不好用呢?” 
+一个可能的原因是它们只强调激动人心的结果, 而忽略了漫长而艰难的过程. 
+哪怕简单到早晚刷牙, 按时吃药这种不需要任何才智就能完成的事情, 随着时间的推移, 也会变得不那么容易. 
+最近我为了治疗慢性鼻炎, 只不过一天三次吃两种药, 就已经开始出现记忆混乱, 难以保证按时完成.&lt;/p&gt;
 
-&lt;p&gt;想起来健身的事情. 今年三月健身满一年, 也设想了今年的目标: 完成短暂人生中尚未完成过的引体向上. 转眼过去了半年, 背部基本每周至少一练. 最近也确乎可以做几个不那么标准的引体向上了, 这或许是一个正面的例子.&lt;/p&gt;
+&lt;p&gt;如果我们受到外界影响, 竟然误以为生活的主体是成功和辉煌, 那么在我们把目光从那些让人心潮澎湃的文章中移开, 开始面对自己的现实生活的时候, 期望与现实就会产生巨大的心理落差.
+而这些额外的焦虑, 本是完全可以避免的. 从这个角度来看, 成功学和鸡汤带给社会的是负和. 
+所以, 我个人对待成功学和鸡汤的原则是 “尽量不看, 误入快关, 坚决不传”. 
+这个策略不仅保护了自己的大脑少受骚扰, 让自己更快乐, 也是在对整个社会做贡献呢 :)&lt;/p&gt;
 
-&lt;h3 id=&quot;section-3&quot;&gt;更大的图景: 如何行动&lt;/h3&gt;
+&lt;p&gt;那么, 有没有什么靠谱的手段能让我们有更多, 更好的行动呢?&lt;/p&gt;
 
-&lt;p&gt;结论其实并不难理解: &lt;strong&gt;只有行动才能产生新的结果&lt;/strong&gt;. 虽然行动不一定能保证得到我们想要的结果, 但是可以确定, 不行动什么都不会发生.&lt;/p&gt;
-
-&lt;p&gt;因此, 我们需要的不只是大道理, 还有行动的智慧.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://book.douban.com/subject/22994632/&quot;&gt;成功，动机与目标 (Succeed: How we can reach our goals)&lt;/a&gt;&lt;/em&gt; 这本书就是非常好的&lt;strong&gt;行动参考手册&lt;/strong&gt;. 这里只简单提一个很有意思的概念: 执行意图.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://book.douban.com/subject/22994632/&quot;&gt;《成功，动机与目标 (Succeed: How we can reach our goals)》&lt;/a&gt; 这本书就是非常好的&lt;strong&gt;行动参考手册&lt;/strong&gt;. 
+这里只简单提一个很有意思的概念: 执行意图(&lt;a href=&quot;https://en.wikipedia.org/wiki/Implementation_intention&quot;&gt;Implementation intention&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;执行意图, 通常是一个 “如果…就…” 的句式. 前半句是&lt;strong&gt;触发条件&lt;/strong&gt;(比如周一早上八点半), 后半句是&lt;strong&gt;具体行动&lt;/strong&gt;(计划这一周的工作). 执行意图的一大巧妙之处, 就在于它省去了思考和选择的过程, 而让我们直接采取具体行动.&lt;/p&gt;
 
-&lt;p&gt;在需要行动的时候, 我们就要尽量避免其它分心的想法(想想去健身房前的那些让你止步的念头吧), 唯一有用的既不是瞻前顾后, 也不是抽象的思考, 而是开始行动. 想要学编程? 那就每天晚上看一段 mooc 视频, 然后打开编辑器写几行代码; 想要写一本传世小说? 那就从每周末写一篇博客开始; 想要有优雅的身材? 每周三次, 每次健身房一小时.&lt;/p&gt;
+&lt;p&gt;在需要行动的时候, 我们就要尽量避免其它分心的想法(想想去健身房前的那些让你止步的念头吧), 唯一有用的既不是瞻前顾后, 也不是抽象的思考, 而是现在就开始行动. 
+想要学编程? 那就每天晚上看一段 mooc 视频, 然后打开编辑器写几行代码; 
+想要写一本传世小说? 那就从每周末写一篇博客开始; 
+想要有优雅的身材? 每周三次, 每次健身房一小时.&lt;/p&gt;
 
 &lt;p&gt;从抽象的想法到具体的行动, 就是我们最需要的智慧. 执行意图 “触发条件 - 具体行动” 的思考方式, 让我们产生更多的具体行动, 也就带来更好的结果.&lt;/p&gt;
 
-&lt;h2 id=&quot;section-4&quot;&gt;事后验尸的智慧&lt;/h2&gt;
+&lt;h2 id=&quot;section-2&quot;&gt;客观理性的反馈分析&lt;/h2&gt;
 
-&lt;p&gt;事后验尸, 抑或从经验中学习, 恐怕是人类智慧最重要的来源之一. 詹姆斯马奇的 &lt;a href=&quot;http://book.douban.com/subject/6687032/&quot;&gt;&lt;em&gt;经验的疆界&lt;/em&gt;&lt;/a&gt; 也是我反复品味的”大道理”之作.&lt;/p&gt;
+&lt;p&gt;从经验中学习, 恐怕是人类智慧最重要的来源之一. 詹姆斯马奇的 &lt;a href=&quot;http://book.douban.com/subject/6687032/&quot;&gt;《经验的疆界》&lt;/a&gt; 也是我反复品味的”大道理”之作.&lt;/p&gt;
 
-&lt;p&gt;最近看到一篇&lt;a href=&quot;http://www.douban.com/group/topic/20159977/&quot;&gt;彼得德鲁克的文章&lt;/a&gt;, 又回想起事后验尸的智慧: &lt;strong&gt;每当做出重要决定或采取重要行动时, 你都可以事先记录下自己对结果的预期. 9到12个月后, 再将实际结果与自己的预期比较.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最近看到一篇&lt;a href=&quot;http://www.douban.com/group/topic/20159977/&quot;&gt;彼得德鲁克的文章&lt;/a&gt;, 也看到了一个很值得尝试的”大道理”: &lt;strong&gt;每当做出重要决定或采取重要行动时, 你都可以事先记录下自己对结果的预期. 9到12个月后, 再将实际结果与自己的预期比较.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;也许这句话中有两点值得品味: 第一, 目标是重要的事情; 第二, 事先记录下自己的预期. 一旦事先记录了预期, 留下了切实的印记, 就不会再用各种理由欺骗自己. 也就是说, 这种方法(feedback analysis)让我们更关心(并可以获得, 实际上真正的问题常在于我们没有得到未经歪曲的事实)事实是什么, 而不是我的印象(记忆常常带有巨大偏见)是什么.&lt;/p&gt;
+&lt;p&gt;也许这句话中有两点值得品味: 第一, 目标是重要的事情; 第二, 事先记录下自己的预期. 一旦事先记录了预期, 留下了不可更改的客观印记, 就不会再用各种理由欺骗自己. 
+没错, 我们的大脑是最容易被欺骗的(Munger’s book).&lt;/p&gt;
 
-&lt;p&gt;对于自己最近的尝试, 也已经都记录下来. 长时间周期的记录将会产生足够大的样本(又是坚持的力量), 足以分析出很多&lt;strong&gt;基于事实&lt;/strong&gt;的结论.&lt;/p&gt;
+&lt;p&gt;这种方法(feedback analysis)让我们更关心事实是什么, 而不是我的印象是什么.&lt;/p&gt;
 
-&lt;h2 id=&quot;section-5&quot;&gt;结语&lt;/h2&gt;
+&lt;p&gt;对于自己最近的尝试, 已经都记录下来. 长时间周期的记录将会产生足够大的样本, 足以分析出很多&lt;strong&gt;基于事实&lt;/strong&gt;的结论.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;结语&lt;/h2&gt;
 
 &lt;p&gt;过好平凡而独特的这一生, 比听多少大道理重要得多.&lt;/p&gt;
 
-&lt;p&gt;行动创造新的体验, 反省则产生更好的体验.&lt;/p&gt;
+&lt;p&gt;行动创造新的体验, 理性的反思则产生更好的体验.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;未尽的话&lt;/h2&gt;
+
+&lt;p&gt;人类心灵的种种错觉与如何生活得更真实, 更快乐, 也是我个人非常感兴趣的领域, 今后会慢慢写下一些自己的笔记. 敬请期待 :)&lt;/p&gt;
 
 &lt;hr /&gt;
 
