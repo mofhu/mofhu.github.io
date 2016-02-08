@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Python 性能分析: cProfile 和 pstats"
+title: "Python 性能分析: cProfile"
 date: 2016-02-08 11:00:00
-categories: 编程 Python 性能分析 chaos
-excerpt: Python 性能分析 cProfile pstats chaos
+categories: 性能分析 从零到一 Chaos-to-sth Python 编程 Programming
+excerpt: Python 性能分析 cProfile pstats Chaos
 ---
 
 

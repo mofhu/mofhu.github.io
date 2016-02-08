@@ -2,8 +2,8 @@
 layout: post
 title: "Python 机器学习: 从0到1"
 date: 2015-09-12 14:30:00
-categories: 机器学习 Python chaos 笔记
-excerpt: Python 机器学习 从0到1
+categories: 机器学习 Machine-learning Python 从零到一 Chaos-to-sth
+excerpt: Python 机器学习 从零到一
 ---
 
 * content
@@ -147,7 +147,3 @@ clf = joblib.load('filename.pkl')
 
 - [斯坦福大学 Angrew Ng 的机器学习课程](https://www.coursera.org/learn/machine-learning)
 - [有趣的机器学习：最简明入门指南](http://blog.jobbole.com/67616/) 
-
----
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Git 笔记"
+title: "Git 入门笔记"
 date: 2016-02-01 22:20:00
-categories: programming 笔记 chaos
+categories: 编程 Programming 笔记 从零到一 Chaos-to-sth Git
 excerpt: Git 笔记
 ---
 

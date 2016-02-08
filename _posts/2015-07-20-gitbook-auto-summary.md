@@ -2,7 +2,7 @@
 layout: post
 title:  "GitBook auto summary"
 date:   2015-07-20 23:21:54
-categories: Programming Python
+categories: GitBook 编程 Programming Python
 excerpt: GitBook auto summary
 ---
 

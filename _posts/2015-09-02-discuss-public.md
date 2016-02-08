@@ -2,7 +2,7 @@
 layout: post
 title: "为什么公开讨论令众受益?"
 date: 2015-09-02 22:11:54
-categories: 随笔 思考
+categories: 随笔
 excerpt: 为什么公开讨论令众受益?
 ---
 
@@ -51,7 +51,3 @@ excerpt: 为什么公开讨论令众受益?
 定义每个概念: 什么是公开讨论, 众是谁, 包括自己吗?
 
 足以让 `六个月前的自己` 明白这里讨论的始末, 也就可以分享给他人了.
-
----
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。

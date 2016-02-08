@@ -2,7 +2,7 @@
 layout: post
 title:  "理性之心"
 date:   2015-07-18 23:21:54
-categories: 写给十年前的自己 理性之心
+categories: 写给十年前的自己 理性之心 Rationality
 excerpt: 理性之心
 ---
 
@@ -70,6 +70,3 @@ excerpt: 理性之心
 文中牵扯到很多概念的界定并不清晰(比如上面一段的“正确”). 因此值得指出的是, 诸如“重现”“可证伪”等概念的精确定义, 本文目前尚未包含. 
 （事实上, 集合论的发展史似乎在告诉我们, “存在重现的概念的体系”本身的存在性, 很多时候不能在体系内得到证明. 个人倾向于认为在现实世界中, 绝大部分具有实证意义的概念的边界不是一致确定的, 但可以通过实证来得到近似解. ）
 
----
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。

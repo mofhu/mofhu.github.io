@@ -2,8 +2,8 @@
 layout: post
 title:  "不确定情况下的学习 Study under Uncertainty"
 date:   2015-06-13 23:14:54
-categories: 写给十年前的自己 Study
-excerpt: Hello world.
+categories: 写给十年前的自己 学习 不确定
+excerpt: 不确定情况下的学习
 ---
 
 * content
@@ -36,7 +36,7 @@ excerpt: Hello world.
 不夸张地说, 在刚进入某个新领域时, 甚至要有随时重头来过的觉悟.
 
 真正常见的学习形态常常是有些混乱和纠结的, 也许是下面这样:   
-![twisted](twisted.png)  
+![twisted](/figures/2015-06-13-twisted.png)  
 目标-学习-反馈-修正学习方向-学习-反馈-修正学习方向-...(直至解决初始问题)   
 真实的学习过程也许更像是画一幅油画, 我们反复涂抹修改, 直到画出自己满意的作品.
 
@@ -132,7 +132,7 @@ excerpt: Hello world.
 
 以上思路整合为一张图, 就可以作为一个特定学习内容的案头手册(cheat sheet). 学习时放在手边, 每一个小的学习片段(对我通常是半小时), 或者遇到困难需要暂停时, 就回看一次. 
 
-![wheel-of-python](wheel-of-python.png)
+![wheel-of-python](/figures/2015-06-13-wheel-of-python.png)
 
 通过参考案头手册, 进行`极简敏捷行动`, 我们可以减少在不确定情况下学习时的选择和判断, 从而极大降低了这些行为占用的时间和心智(很多时候我们就是在纠结的选择中失去了行动能力...). 对应地, 当我们把更多时间投入具体的学习过程, 就能形成更多的学习循环, 在不断上升的循环中, 享受自我成长的学习之乐.
 
@@ -140,6 +140,4 @@ excerpt: Hello world.
 ---
 尾注  
 1. 题目是对 *Judgment under Uncertainty: heuristics and biases* 致敬
-
-
 
