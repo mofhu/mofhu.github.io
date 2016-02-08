@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Python 机器学习: 从零到一"
 date: 2015-09-12 14:30:00
 categories: 机器学习 Machine-learning Python 从零到一 Chaos-to-sth

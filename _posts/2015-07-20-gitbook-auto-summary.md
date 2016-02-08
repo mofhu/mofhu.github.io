@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "GitBook auto summary"
 date: 2015-07-20 23:21:54
 categories: GitBook 编程 Programming Python

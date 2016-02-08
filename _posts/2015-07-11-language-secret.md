@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "语言的诡计"
 date: 2015-07-11 23:21:54
 categories: 写给十年前的自己 理性之心 Rationality

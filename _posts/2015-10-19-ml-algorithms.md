@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "机器学习2：常用算法入门小结"
 date: 2015-10-19 22:39:54
 categories: 机器学习 Machine-learning 编程 Programming 从零到一 Chaos-to-sth

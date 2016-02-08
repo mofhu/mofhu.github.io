@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Python 入门笔记"
 date: 2015-06-12 23:14:54
 categories: Python 编程 Programming 从零到一 Chaos-to-sth

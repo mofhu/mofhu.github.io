@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Status Anxiety 身份的焦虑"
 date: 2015-07-26 22:44:54
 categories: 阅读 Reading 身份的焦虑 阿兰·德波顿
