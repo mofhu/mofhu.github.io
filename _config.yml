@@ -16,14 +16,5 @@ permalink: /:year/:month/:day/:title/
 # Build settings
 markdown: kramdown
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-
-
 # highlight
 highlighter: rouge
