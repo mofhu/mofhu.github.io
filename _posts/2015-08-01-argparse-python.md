@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "用 argparse 模块解析命令行参数"
 date: 2015-08-01 23:21:54
 categories: argparse 从零到一 Chaos-to-sth 编程 Programming Python

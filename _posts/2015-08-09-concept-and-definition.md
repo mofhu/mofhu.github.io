@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "概念与定义"
 date: 2015-08-09 23:21:54
 categories: 写给十年前的自己 理性之心 Rationality

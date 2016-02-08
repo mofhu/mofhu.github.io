@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "穷查理宝典"
 date: 2016-02-04 23:00:00
 categories: 阅读 Reading 查理·芒格 理性之心 Rationality

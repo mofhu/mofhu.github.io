@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "为什么公开讨论令众受益?"
 date: 2015-09-02 22:11:54
 categories: 随笔

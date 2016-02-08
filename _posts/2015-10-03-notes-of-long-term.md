@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "杂谈大道理"
 date: 2015-10-03 22:39:54
 categories: 随笔 阅读 Reading

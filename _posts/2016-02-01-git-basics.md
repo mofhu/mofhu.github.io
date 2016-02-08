@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Git 入门笔记"
 date: 2016-02-01 22:20:00
 categories: 编程 Programming 笔记 从零到一 Chaos-to-sth Git
