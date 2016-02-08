@@ -1,13 +1,10 @@
 ---
-layout: post
-title:  "Status Anxiety 身份的焦虑"
-date:   2015-07-26 22:44:54
+title: "Status Anxiety 身份的焦虑"
+date: 2015-07-26 22:44:54
 categories: 阅读 Reading 身份的焦虑 阿兰·德波顿
-excerpt: Status anxiety
+excerpt: 跟着阿兰·德波顿温和的文字, 我们一起聊聊自己的焦虑. 
 ---
 
-* content
-{:toc}
 
 # Status Anxiety 身份的焦虑
 

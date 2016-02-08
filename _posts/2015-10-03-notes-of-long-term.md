@@ -1,14 +1,9 @@
 ---
-layout: post
 title: "杂谈大道理"
 date: 2015-10-03 22:39:54
 categories: 随笔 阅读 Reading
-excerpt: 杂谈大道理
+excerpt: 听过了许多大道理, 我们为什么仍然过不好这一生? 
 ---
-
-* content
-{:toc}
-
 
 ## 缘起
 

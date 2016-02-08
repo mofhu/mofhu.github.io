@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "Git 入门笔记"
 date: 2016-02-01 22:20:00
 categories: 编程 Programming 笔记 从零到一 Chaos-to-sth Git
-excerpt: Git 笔记
+excerpt: Git 入门哪家强? 我还是兹磁 Pro Git.
 ---
 
 
@@ -90,6 +89,9 @@ details `git remote -v`
 - Pull request
 
 ## References and Resources
-- [Git cheet sheet](http://www.git-tower.com/blog/assets/2013-05-22-git-cheat-sheet/cheat-sheet-large01.png) 打印出来放在手边即可
-- [廖雪峰的 Git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-- Pro Git: [English](https://git-scm.com/book/en/v2), [中文](https://git-scm.com/book/zh/v2)
+
+- [Code School - Try Git](https://try.github.io/) 入门要练! 不要看!
+- 专业的看这本 - Pro Git: [English](https://git-scm.com/book/en/v2), [中文](https://git-scm.com/book/zh/v2)
+- [Git cheet sheet](http://7xqt2z.com1.z0.glb.clouddn.com/blog%2Ffigures%2F2016-02-01-git-cheat-sheet.png) 打印出来放在手边即可. [源地址](https://www.git-tower.com/blog/git-cheat-sheet/)
+- [廖雪峰的 Git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) 入门也可以看这个教程
+

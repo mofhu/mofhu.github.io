@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "Python 性能分析: cProfile"
 date: 2016-02-08 11:00:00
 categories: 性能分析 从零到一 Chaos-to-sth Python 编程 Programming
-excerpt: Python 性能分析 cProfile pstats Chaos
+excerpt: 基于 Python 自带电池 ("batteries included") 的哲学, 在性能分析方面标准库中提供了方便易用的 cProfile/profile 模块. cProfile 模块可很方便地评价程序的性能, 帮助我们发现程序中最值得优化的短板, 让我们的时间得到更好的利用.
 ---
 
 
@@ -207,7 +206,9 @@ Mon Feb  8 12:09:45 2016    restats
 
 ## 小结
 
-基于Python 自带电池 ("batteries included") 的哲学, 在性能分析方面标准库中提供了方便易用的 timeit 和 cProfile/profile 模块, cProfile 模块可很方便地评价程序的性能, 并寻找最值得优化的短板.
+基于 Python 自带电池 ("batteries included") 的哲学, 在性能分析方面标准库中提供了方便易用的 timeit 和 cProfile/profile 模块, cProfile 模块可很方便地评价程序的性能, 帮助我们发现程序中最值得优化的短板.
+
+完成这次性能分析的时候, 忽然想起了 Andrew Ng 在他的[机器学习课程](https://www.coursera.org/learn/machine-learning)中反复提到: 机器学习任务中, 最宝贵的资源是`工程师的时间`. 在性能优化之中也是如此, 一个简单的性能分析, 时常可以起到事半功倍的效果. 有效的质控与解耦在其它领域也是检查清单上的必备内容.
 
 
 ## 参考资料

@@ -1,13 +1,9 @@
 ---
-layout: post
 title: "为什么公开讨论令众受益?"
 date: 2015-09-02 22:11:54
 categories: 随笔
-excerpt: 为什么公开讨论令众受益?
+excerpt: 公开讨论可以令更多的人受益吗, 为什么?
 ---
-
-* content
-{:toc}
 
 
 ## 缘起

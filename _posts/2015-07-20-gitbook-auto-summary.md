@@ -1,13 +1,10 @@
 ---
-layout: post
-title:  "GitBook auto summary"
-date:   2015-07-20 23:21:54
+title: "GitBook auto summary"
+date: 2015-07-20 23:21:54
 categories: GitBook 编程 Programming Python
-excerpt: GitBook auto summary
+excerpt: GitBook auto summary 是我编写的一个小脚本, 可以根据现有的目录自动生成 GitBook 的 Summary.md 文件.
 ---
 
-* content
-{:toc}
 
 # [GitBook auto summary](http://frank-the-obscure.me/GitBook-auto-summary/)
 
@@ -29,17 +26,11 @@ Tested with Python 3.4.3 in Windows 7 and OS 10.10
 ```
 folder tree:
 .
-
 ├── README.md  
-
 ├── SUMMARY.md  
-
 ├── md  
-
 │   └── SUMMARY.md  
-
 ├── nomd  
-
 └── os-and-os-path.md  
 ```
 
