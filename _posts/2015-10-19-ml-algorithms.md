@@ -6,6 +6,8 @@ categories: 机器学习 Machine-learning 编程 Programming 从零到一 Chaos-
 excerpt: 匆匆刷过了 coursera 上著名的机器学习课程, 再不写就忘了.
 ---
 
+* content
+{:toc}
 
 匆匆刷过了 coursera 上著名的[机器学习课程](https://www.coursera.org/learn/machine-learning), 本文记录一下学习经验. 当然, 这篇文章的前几稿必定不很靠谱. 不过, 只有经过这些粗糙的文字, 才能迭代出更精准的思考, 正所谓"输出是更加残酷的输入". 也请各位读者不吝赐教. 
 

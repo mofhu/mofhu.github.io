@@ -6,6 +6,9 @@ categories: Vim 从零到一 Chaos-to-sth 编程 Programming
 excerpt: 爱折腾的我玩起了 Vim.
 ---
 
+* content
+{:toc}
+
 - Outline: raw notes from chaos to vim
 - why vim? 为什么用 vim?
 - basic commands

@@ -21,7 +21,7 @@ layout: default
               </h2>
                 <head>
                 <style type="text/css">
-                p.margin {margin : 0 15% 0 15%;}
+                p.margin {margin : 0 10% 0 10%;}
                 </style>
                 </head>
                 <body>
@@ -44,7 +44,16 @@ layout: default
                     <h2>
                     {{ post.title }}
                     </h2>
-                    {{ post.excerpt }}
+                <head>
+                <style type="text/css">
+                p.margin {margin : 0 10% 0 10%;}
+                </style>
+                </head>
+                <body>
+                <p class="margin">
+                {{ post.excerpt }}
+                </p>
+                </body>
                     <br />
                     <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
                   </a>

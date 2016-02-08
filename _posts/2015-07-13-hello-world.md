@@ -7,6 +7,8 @@ excerpt: Hello world.
 ---
 
 
+* content
+{:toc}
 
 Hello world
 

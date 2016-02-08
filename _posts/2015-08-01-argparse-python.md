@@ -6,6 +6,9 @@ categories: argparse 从零到一 Chaos-to-sth 编程 Programming Python
 excerpt: Python 标准库的 argparse 模块可以让我们方便地写出好用的命令行参数接口. 这是我的简单入门笔记.
 ---
 
+* content
+{:toc}
+
 # 用 argparse 模块解析命令行参数
 
 ## Outline

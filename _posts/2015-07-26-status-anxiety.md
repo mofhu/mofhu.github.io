@@ -6,6 +6,8 @@ categories: 阅读 Reading 身份的焦虑 阿兰·德波顿
 excerpt: 跟着阿兰·德波顿温和的文字, 我们一起聊聊自己的焦虑. 
 ---
 
+* content
+{:toc}
 
 # Status Anxiety 身份的焦虑
 

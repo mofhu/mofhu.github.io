@@ -6,6 +6,8 @@ categories: 编程 Programming 笔记 从零到一 Chaos-to-sth Git
 excerpt: Git 入门哪家强? 我还是兹磁 Pro Git.
 ---
 
+* content
+{:toc}
 
 ## Git basics
 

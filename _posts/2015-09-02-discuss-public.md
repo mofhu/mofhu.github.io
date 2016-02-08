@@ -6,6 +6,8 @@ categories: 随笔
 excerpt: 公开讨论可以令更多的人受益吗, 为什么?
 ---
 
+* content
+{:toc}
 
 ## 缘起
 

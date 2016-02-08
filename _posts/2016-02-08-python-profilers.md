@@ -6,6 +6,8 @@ categories: 性能分析 从零到一 Chaos-to-sth Python 编程 Programming
 excerpt: 基于 Python 自带电池 ("batteries included") 的哲学, 在性能分析方面标准库中提供了方便易用的 cProfile/profile 模块. cProfile 模块可很方便地评价程序的性能, 帮助我们发现程序中最值得优化的短板, 让我们的时间得到更好的利用.
 ---
 
+* content
+{:toc}
 
 这几天在写一个很小的俄罗斯方块 AI, 写出来的代码策略还不错, 就是运行速度不够快. 几次在策略端尝试优化遍历策略之后效果都很有限, 于是觉得这么盲目优化不是好办法, 应该先找到代码的短板, 再进一步优化对应部分, 如果 Python 搞不定, 就准备上 Cython 或者 C.
 

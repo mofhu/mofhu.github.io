@@ -6,6 +6,8 @@ categories: Python 编程 Programming 从零到一 Chaos-to-sth
 excerpt: Hello Python.
 ---
 
+* content
+{:toc}
 
 # Python 入门笔记
 

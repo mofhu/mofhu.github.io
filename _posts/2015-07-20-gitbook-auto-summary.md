@@ -6,6 +6,8 @@ categories: GitBook 编程 Programming Python
 excerpt: GitBook auto summary 是我编写的一个小脚本, 可以根据现有的目录自动生成 GitBook 的 Summary.md 文件.
 ---
 
+* content
+{:toc}
 
 # [GitBook auto summary](http://frank-the-obscure.me/GitBook-auto-summary/)
 
