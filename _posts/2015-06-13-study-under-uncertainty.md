@@ -10,7 +10,6 @@ excerpt: 知识产生和传播的速度越来越快, 即使离开了学校, 我�
 * content
 {:toc}
 
-# 不确定情况下的学习 Study under Uncertainty
 
 ## 提纲
 - 学习: 从校园到生活

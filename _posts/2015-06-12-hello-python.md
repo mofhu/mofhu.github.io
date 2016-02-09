@@ -9,7 +9,6 @@ excerpt: Hello Python.
 * content
 {:toc}
 
-# Python 入门笔记
 
 写给`六个月前的自己`的 Python 入门书
 

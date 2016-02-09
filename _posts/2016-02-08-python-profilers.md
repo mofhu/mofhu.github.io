@@ -11,7 +11,7 @@ excerpt: '基于 Python 自带电池 ("batteries included") 的哲学, 在性能
 
 这几天在写一个很小的俄罗斯方块 AI, 写出来的代码策略还不错, 就是运行速度不够快. 几次在策略端尝试优化遍历策略之后效果都很有限, 于是觉得这么盲目优化不是好办法, 应该先找到代码的短板, 再进一步优化对应部分, 如果 Python 搞不定, 就准备上 Cython 或者 C.
 
-Google了一番, 发现 Python 3 的标准库里主要提供了两个模块 `[timeit](https://docs.python.org/3/library/timeit.html)` 和 `[cProfile/profile](https://docs.python.org/3/library/profile.html)`. 前者更适合测试代码片段, 后者则可以从一段代码中输出各个函数运行的次数, 时间等信息. 于是我简单使用了 `cProfile` 模块监控并优化我的 AI 代码性能. 下面就以这个实例介绍 cProfile 模块的基本使用方法:
+Google了一番, 发现 Python 3 的标准库里主要提供了两个模块 [`timeit`](https://docs.python.org/3/library/timeit.html) 和 [`cProfile/profile`](https://docs.python.org/3/library/profile.html). 前者更适合测试代码片段, 后者则可以从一段代码中输出各个函数运行的次数, 时间等信息. 于是我简单使用了 cProfile 模块监控并优化我的 AI 代码性能. 下面就以这个实例介绍 cProfile 模块的基本使用方法:
 
 ## cProfile 模块上手
 
@@ -26,6 +26,7 @@ cProfile.run('main()')
 
 ```python
 BLANK_STATUS = [[0 for i in range(0, MAX_WIDTH)] for j in range(0, MAX_HEIGHT)]
+
 from copy import deepcopy
 under_block_matrix = deepcopy(BLANK_STATUS)
 ```
@@ -74,16 +75,18 @@ under_block_matrix = deepcopy(BLANK_STATUS)
     19360    0.186    0.000    0.186    0.000 {method 'tolist' of 'numpy.ndarray' objects}
 ```
 
-代码运行的绝大部分时间都在 deepcopy 函数 (因此我前面的代码优化可以说一直没在点子上...). 在我的代码之中, deepcopy 用来初始化一个 10*20 的嵌套列表. (在实现这个功能的时候, 我还曾因为在开始用了浅拷贝(切片第一维), 由于第二维拷贝的是指向原始列表第二维的指针, 最终原始列表被反复修改, 导致代码出现了 bug. ) 由于每一次遍历新方块的位置都需要初始化一次列表, deepcopy 就导致了代码整体性能很低.
+代码运行的绝大部分时间都在 deepcopy 函数 (因此我前面的代码优化可以说一直没在点子上...). 在我的代码之中, deepcopy 用来初始化一个 10*20 的嵌套列表. (在实现这个功能的时候, 我还曾因为在开始用了浅拷贝(切片第一维), 由于第二维拷贝的是指向原始列表第二维的指针, 最终原始列表被反复修改, 导致代码出现了 bug. ) 由于每一次遍历新方块的位置都需要初始化一次列表, deepcopy 需要运行 3700+ 次, 导致代码整体性能很低.
 
 ## 代码性能优化
 
 下面就是尝试优化这两行代码了. 我想到的思路有两个: 
+
 1. 改用一维列表初始化, 这样切片就可以拷贝, 避免使用 deepcopy; 再用 numpy 或者其它方法格式化一维列表, 希望可以比 deepcopy 快
 2. 更进一步, 把初始化的常量对象改为 numpy.array, 然后每次初始化时候使用 `numpy.array.tolist()`, 自然就生成一个全新的嵌套列表.
 
 ```python
 BLANK_STATUS_LIST = [0 for i in range(0, MAX_WIDTH * MAX_HEIGHT)]
+
 under_block_matrix = (np.reshape(np.asarray(BLANK_STATUS_LIST[:]), (20,10))).tolist()
 ```
 
@@ -129,13 +132,14 @@ under_block_matrix = (np.reshape(np.asarray(BLANK_STATUS_LIST[:]), (20,10))).tol
     23078    0.233    0.000    0.233    0.000 {method 'tolist' of 'numpy.ndarray' objects
 ```
 
-代码速度一下变成了原来的 6.8 倍!
+代码速度一下变成了原来的 `6.8` 倍!
 
 
 再看看第二个方法, 把切片的步骤也省掉会不会更快:
 
 ```python
 BLANK_STATUS = [[0 for i in range(0, MAX_WIDTH)] for j in range(0, MAX_HEIGHT)]
+
 under_block_matrix = np.asarray(BLANK_STATUS).tolist()
 
 220559 function calls in 3.746 seconds
@@ -143,11 +147,12 @@ under_block_matrix = np.asarray(BLANK_STATUS).tolist()
 
 又有一些进步.
 
-那么我们直接传递 numpy 对象, 只需要调用一次 tolist():
+那么我们直接传递 numpy array 对象, 省掉循环中的 np.asarray(), 只需要调用一次 tolist():
 
 ```python
 BLANK_STATUS = [[0 for i in range(0, MAX_WIDTH)] for j in range(0, MAX_HEIGHT)]
 BLANK_STATUS_ARRAY = np.asarray(BLANK_STATUS)
+
 under_block_matrix = BLANK_STATUS_ARRAY.tolist()
 
 213123 function calls in 3.507 seconds
@@ -155,9 +160,10 @@ under_block_matrix = BLANK_STATUS_ARRAY.tolist()
 
 这个速度对于目前的代码来说已经足够快了:)
 
+
 ## 使用 pstats 输出性能分析结果
 
-前面 cProfile 输出的默认结果还有个小小的遗憾, 就是没有很好的格式, 如果能排序和筛选就更好了. [pstats]() 模块就可用多种方式排序并输出性能分析结果, 只需要添加几行代码: 
+前面 cProfile 输出的默认结果还有个小小的遗憾, 就是没有很好的格式, 如果能排序和筛选就更好了. [pstats](https://docs.python.org/3/library/profile.html#module-pstats) 模块就可用多种方式排序并输出性能分析结果, 只需要添加几行代码: 
 
 ```python
     import cProfile
@@ -211,7 +217,7 @@ Mon Feb  8 12:09:45 2016    restats
 
 基于 Python 自带电池 ("batteries included") 的哲学, 在性能分析方面标准库中提供了方便易用的 timeit 和 cProfile/profile 模块, cProfile 模块可很方便地评价程序的性能, 帮助我们发现程序中最值得优化的短板.
 
-完成这次性能分析的时候, 忽然想起了 Andrew Ng 在他的[机器学习课程](https://www.coursera.org/learn/machine-learning)中反复提到: 机器学习任务中, 最宝贵的资源是`工程师的时间`. 在性能优化之中也是如此, 一个简单的性能分析, 时常可以起到事半功倍的效果. 有效的质控与解耦在其它领域也是检查清单上的必备内容.
+完成这次性能分析的时候, 忽然想起了 Andrew Ng 在他的[机器学习课程](https://www.coursera.org/learn/machine-learning)中反复提到: 机器学习任务中, 最宝贵的资源是`工程师的时间`. 在性能优化之中也是如此, 先做一个简单的性能分析把问题搞清楚, 时常可以起到事半功倍的效果. 再想想, 有效的质控与解耦在其它领域(比如设计实验和实验失败后的查错)也是检查清单上的必备内容.
 
 
 ## 参考资料

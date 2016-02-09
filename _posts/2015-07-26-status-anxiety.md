@@ -3,15 +3,14 @@ layout: post
 title: "Status Anxiety 身份的焦虑"
 date: 2015-07-26 22:44:54
 categories: 阅读 Reading 身份的焦虑 阿兰·德波顿
-excerpt: 跟着阿兰·德波顿温和的文字, 我们一起聊聊自己的焦虑. 
+excerpt: "跟着阿兰·德波顿温和的文字, 让我们一起聊聊自己的焦虑."
 ---
 
 * content
 {:toc}
 
-# Status Anxiety 身份的焦虑
 
-阿兰·德波顿(Alain de Botton)的《身份的焦虑》读书笔记
+阿兰·德波顿 (Alain de Botton) 的《身份的焦虑》的读书笔记.
 
 ## 焦虑的起因
 

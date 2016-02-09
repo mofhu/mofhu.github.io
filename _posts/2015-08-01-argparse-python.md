@@ -9,7 +9,6 @@ excerpt: Python 标准库的 argparse 模块可以让我们方便地写出好用
 * content
 {:toc}
 
-# 用 argparse 模块解析命令行参数
 
 ## Outline
 
