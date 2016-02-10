@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "argparse - Python standard library"
-date:   2015-08-01 23:21:54
-categories: Programming Python 笔记
-excerpt: argparse - Python standard library
+title: "用 argparse 模块解析命令行参数"
+date: 2015-08-01 23:21:54
+categories: argparse 从零到一 Chaos-to-sth 编程 Programming Python
+excerpt: Python 标准库的 argparse 模块可以让我们方便地写出好用的命令行参数接口. 这是我的简单入门笔记.
 ---
 
 * content
 {:toc}
-
-# argparse - Python standard library 
 
 
 ## Outline

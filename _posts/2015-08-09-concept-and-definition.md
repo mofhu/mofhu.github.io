@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "概念与定义"
-date:   2015-08-09 23:21:54
-categories: 写给十年前的自己 理性之心
-excerpt: 概念与定义
+title: "[理性之心] 2. 概念与定义"
+date: 2015-08-09 23:21:54
+categories: 写给十年前的自己 理性之心 Rationality
+excerpt: 我们在日常生活中说的话时常并不那么准确, 甚至常有”强词夺理”之嫌. 那么, 如果我们想把可重复的理性带到自己的生活之中, 应该怎么尝试呢? 理性的分析与讨论, 就从定义话语中的每一个概念开始.
 ---
 
 * content
 {:toc}
 
-# 概念与定义
 
 前面我们讨论了理性和语言. 我们在日常生活中说的话时常并不那么准确, 甚至常有”强词夺理”之嫌. 那么, 如果我们想把可重复的理性带到自己的生活之中, 应该怎么尝试呢? 理性的分析与讨论, 就从定义话语中的每一个概念开始.
 
@@ -40,7 +39,3 @@ excerpt: 概念与定义
 1. 另一种对这个问题的看法是观察者偏见. 即聪明人不成功的比例并不显著高于人群整体, 但因为观察的人更多地注意到了聪明人, 就更多地注意到了不成功的聪明人, 会产生不成功的聪明人很多的感觉.
 
 2. 在自然语言的模糊背景下, 我们也许并不能建立出一套完美精确的概念体系. 事实上, 即使在使用精确数学语言的集合论中, 清晰定义概念范围----集合边界的尝试([策梅洛-弗兰克尔集合论](https://zh.wikipedia.org/wiki/%E7%AD%96%E6%A2%85%E6%B4%9B-%E5%BC%97%E5%85%B0%E5%85%8B%E5%B0%94%E9%9B%86%E5%90%88%E8%AE%BA))也并不那么成功. 
-
----
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。

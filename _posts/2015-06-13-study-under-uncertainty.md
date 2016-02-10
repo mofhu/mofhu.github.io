@@ -1,16 +1,15 @@
 ---
 layout: post
-title:  "不确定情况下的学习 Study under Uncertainty"
-date:   2015-06-13 23:14:54
-categories: 写给十年前的自己 Study
-excerpt: Hello world.
+title: "不确定情况下的学习 Study under Uncertainty"
+date: 2015-06-13 23:14:54
+categories: 写给十年前的自己 学习 不确定情况下的行动
+excerpt: 知识产生和传播的速度越来越快, 即使离开了学校, 我们也需要继续学习, 不断成长. 然而, 从学习目标, 学习过程, 以及学习中的反馈三个方面来看, 我们在中小学的学习过程都经过了多年优化. 超高信噪比的学校学习模式在极好地完成了应试任务的同时, 却也让我们离真实生活中的学习越来越远. 我们有必要思考, 在高不确定性的真实环境中, 学校的学习模式还能否起到良好效果, 我们应该如何学习?
 ---
+
 
 * content
 {:toc}
 
-
-# 不确定情况下的学习 Study under Uncertainty
 
 ## 提纲
 - 学习: 从校园到生活
@@ -23,7 +22,7 @@ excerpt: Hello world.
 
 ## 2. 学习的幻想
 
-在开始探索正确的学习姿势之前, 我们不妨先看看几个广泛存在的对于学习的幻想.
+在开始探索正确的学习姿势之前, 我们不妨"反过来想", 先看看几个广泛存在的对于学习的幻想.
 
 ### 2.1 "我学过之后就什么都会了"
 
@@ -36,7 +35,7 @@ excerpt: Hello world.
 不夸张地说, 在刚进入某个新领域时, 甚至要有随时重头来过的觉悟.
 
 真正常见的学习形态常常是有些混乱和纠结的, 也许是下面这样:   
-![twisted](twisted.png)  
+![twisted](http://7xqt2z.com1.z0.glb.clouddn.com/blog%2Ffigures%2F2015-06-13-twisted.png)  
 目标-学习-反馈-修正学习方向-学习-反馈-修正学习方向-...(直至解决初始问题)   
 真实的学习过程也许更像是画一幅油画, 我们反复涂抹修改, 直到画出自己满意的作品.
 
@@ -132,7 +131,7 @@ excerpt: Hello world.
 
 以上思路整合为一张图, 就可以作为一个特定学习内容的案头手册(cheat sheet). 学习时放在手边, 每一个小的学习片段(对我通常是半小时), 或者遇到困难需要暂停时, 就回看一次. 
 
-![wheel-of-python](wheel-of-python.png)
+![wheel-of-python](http://7xqt2z.com1.z0.glb.clouddn.com/blog%2Ffigures%2F2015-06-13-wheel-of-python.png)
 
 通过参考案头手册, 进行`极简敏捷行动`, 我们可以减少在不确定情况下学习时的选择和判断, 从而极大降低了这些行为占用的时间和心智(很多时候我们就是在纠结的选择中失去了行动能力...). 对应地, 当我们把更多时间投入具体的学习过程, 就能形成更多的学习循环, 在不断上升的循环中, 享受自我成长的学习之乐.
 
@@ -140,6 +139,4 @@ excerpt: Hello world.
 ---
 尾注  
 1. 题目是对 *Judgment under Uncertainty: heuristics and biases* 致敬
-
-
 

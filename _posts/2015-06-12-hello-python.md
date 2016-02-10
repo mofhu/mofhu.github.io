@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "Python 入门笔记"
+title: "Python 入门笔记"
 date: 2015-06-12 23:14:54
-categories: Python study programming
+categories: Python 编程 Programming 从零到一 Chaos-to-sth
 excerpt: Hello Python.
 ---
 
 * content
 {:toc}
 
-
-# Python 入门笔记
 
 写给`六个月前的自己`的 Python 入门书
 

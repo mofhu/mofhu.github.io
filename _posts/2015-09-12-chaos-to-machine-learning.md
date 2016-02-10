@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "Python 机器学习: 从0到1"
+title: "Python 机器学习: 从零到一"
 date: 2015-09-12 14:30:00
-categories: 机器学习 Python chaos 笔记
-excerpt: Python 机器学习 从0到1
+categories: 机器学习 Machine-learning Python 从零到一 Chaos-to-sth
+excerpt: 机器学习是个听着名字就觉得很厉害的领域, 也确实开始在很多方面开始改变我们的生活. 那么, 除了"不明觉厉"之外, 我可以学习如何进行机器学习吗? 这篇文章就记录了我从零到一学习机器学习的一些经历.
 ---
 
 * content
 {:toc}
-
-# Python 机器学习: 从0到1
 
 目标: 记录最近尝试机器学习的经历和关键节点, 让 `六个月前的自己` 可以更顺利的上手机器学习.
 
@@ -143,11 +141,7 @@ clf = joblib.load('filename.pkl')
 入门虽易, 但得到一个效果出色的机器学习算法, 往往需要大量尝试(这方面, 机器学习与日常科研中做实验非常像). 后面, 就要遇到实际的工程问题了.
 
 
-##参考资料和补充阅读
+## 参考资料和补充阅读
 
 - [斯坦福大学 Angrew Ng 的机器学习课程](https://www.coursera.org/learn/machine-learning)
 - [有趣的机器学习：最简明入门指南](http://blog.jobbole.com/67616/) 
-
----
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。

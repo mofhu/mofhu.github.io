@@ -2,13 +2,12 @@
 layout: post
 title: "杂谈大道理"
 date: 2015-10-03 22:39:54
-categories: 随笔 思考
-excerpt: 杂谈大道理
+categories: 随笔 阅读 Reading
+excerpt: 听过了许多大道理, 我们为什么仍然过不好这一生? 
 ---
 
 * content
 {:toc}
-
 
 ## 缘起
 
@@ -75,6 +74,3 @@ excerpt: 杂谈大道理
 
 人类心灵的种种错觉与如何生活得更真实, 更快乐, 也是我个人非常感兴趣的领域, 今后会慢慢写下一些自己的笔记. 敬请期待 :)
 
----
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。

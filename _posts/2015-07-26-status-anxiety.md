@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  "Status Anxiety 身份的焦虑"
-date:   2015-07-26 22:44:54
-categories: reading
-excerpt: Status anxiety.
+title: "Status Anxiety 身份的焦虑"
+date: 2015-07-26 22:44:54
+categories: 阅读 Reading 身份的焦虑 阿兰·德波顿
+excerpt: "跟着阿兰·德波顿温和的文字, 让我们一起聊聊自己的焦虑."
 ---
 
 * content
 {:toc}
 
-# Status Anxiety 身份的焦虑
 
-阿兰德波顿(Alain de Botton)的《身份的焦虑》读书笔记
+阿兰·德波顿 (Alain de Botton) 的《身份的焦虑》的读书笔记.
 
 ## 焦虑的起因
 
@@ -75,7 +74,3 @@ excerpt: Status anxiety.
 1. 这或许来源于自然语言的随意性. 自然语言允许我们说出任意组合的话语, 而无关真假. 但当我们把听到的话都一股脑地接收时, 就出现了问题.
 2. Mihaly Csikszentmihalyi 的心流理论更关注过程和当下的体验. 参见他的著作 [*Flow*](http://book.douban.com/subject/6509801/), [我的读书笔记](http://frank-the-obscure.gitbooks.io/reading-notes/content/flow.html)
 3. Paul Graham, [*Hacker and Painter*](http://book.douban.com/subject/25724948/)
-
----
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。

@@ -2,15 +2,13 @@
 layout: post
 title: "Vim 入门小记"
 date: 2015-12-24 22:39:54
-categories: programming Vim chaos 笔记
-excerpt: Vim 入门小记
+categories: Vim 从零到一 Chaos-to-sth 编程 Programming
+excerpt: 爱折腾的我玩起了 Vim.
 ---
 
-# Vim 入门小记 / Chaos to vim
+* content
+{:toc}
 
-- Outline: raw notes from chaos to vim
-- why vim? 为什么用 vim?
-- basic commands
 
 ## Why vim?
 
