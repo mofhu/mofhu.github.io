@@ -101,14 +101,14 @@ y 是一维列表(注意, 机器学习中常把 y 用列向量表示, 但在 num
 
 从线性回归 [Linear Regression Example](http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#example-linear-model-plot-ols-py) 开始吧
 
-```
+~~~python
 from sklearn import linear_model
 clf = linear_model.LinearRegression()
 clf.fit ([[0, 0], [1, 1], [2, 2]], [0, 1, 2]) # x是 m*n 矩阵(数据结构是二维数组/嵌套列表), m是样本数量 (3) , n 是特征数量 (2), ; y 是一维列表(注意, 机器学习中常把 y 用向量表示)
 LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)
 clf.coef_ # 模型中各参数的值
 array([ 0.5,  0.5])
-```
+~~~ 
 
 scikit-learn 中最常用的方法:
 
@@ -122,12 +122,12 @@ scikit-learn 中最常用的方法:
 [模型保存和读取](http://scikit-learn.org/stable/tutorial/basic/tutorial.html#model-persistence)
 
 
-```python
+~~~python
 from sklearn.externals import joblib
 joblib.dump(clf, 'filename.pkl') 
 
 clf = joblib.load('filename.pkl') 
-```
+~~~
 
 注: 如此存储时 .pkl文件还会带有同样名字的几个其它文件 .npy 等, 不要误删.
 

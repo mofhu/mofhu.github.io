@@ -41,7 +41,9 @@ excerpt: 爱折腾的我玩起了 Vim.
 
 另外, 命令不是用来背的, 在 Git cheat sheet 背面手写了 Vim cheat sheet 作为备忘录 :)
 
-## References
+---
+
+References
 
 - vim tutor: `vimtutor` in terminal
 - [鸟哥的 vim 介绍](http://linux.vbird.org/linux_basic/0310vi.php): cheat sheet 部分主要记录了鸟哥图中的命令
