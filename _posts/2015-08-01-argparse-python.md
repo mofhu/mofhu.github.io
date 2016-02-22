@@ -3,7 +3,7 @@ layout: post
 title: "用 argparse 模块解析命令行参数"
 date: 2015-08-01 23:21:54
 categories: 从零到一 Chaos-to-sth 编程 Programming Python
-excerpt: Python 标准库的 argparse 模块可以让我们方便地写出好用的命令行参数接口. 这是我的简单入门笔记.
+excerpt: "Python 标准库的 argparse 模块可以让我们方便地写出好用的命令行参数接口. 这是我的简单入门笔记."
 ---
 
 * content
@@ -49,8 +49,7 @@ when users give the program invalid arguments[^2].
 简单来说, argparse 可以帮助我们很容易的写出命令行交互界面(command-line interface), 
 并且可以自动生成很好的注释, 帮助及错误处理, 便于程序被大家(和自己)使用. 
 
-在 GitBook auto summary (commit [5005eb]
-(https://github.com/Frank-the-Obscure/GitBook-auto-summary/commit/
+在 GitBook auto summary (commit [5005eb](https://github.com/Frank-the-Obscure/GitBook-auto-summary/commit/
 5005ebf8c1baeb4a093ec263d6a3ad87ff5cc42d)) 中的相关代码和注释
 
 ~~~ python
@@ -63,7 +62,8 @@ parser.add_argument('directory',
                     help='the directory of your GitBook root') 
     # 定义 directory 参数
 args = parser.parse_args() 
-    # Convert argument strings to objects and assign them as attributes of the namespace. Return the populated namespace.
+    # Convert argument strings to objects and assign them as attributes of the namespace. 
+    # Return the populated namespace.
 overwrite = args.overwrite
 dir_input = args.directory
 if args.overwrite:
