@@ -2,7 +2,7 @@
 layout: post
 title: "Git 入门笔记"
 date: 2016-02-01 22:20:00
-categories: 编程 Programming 笔记 从零到一 Chaos-to-sth Git
+categories: 编程 Programming 笔记 从零到一 Chaos-to-sth Git 工具
 excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 ---
 
@@ -28,8 +28,8 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
          可通过 `git rm` 删除
 
 3. `git status`
-     - 最常用的命令之一, 用来看看仓库发生了哪些变化.
-     - 如果一切满意就可以进行 提交, 分支等操作
+    - 最常用的命令之一, 用来看看仓库发生了哪些变化.
+    - 如果一切满意就可以进行 提交, 分支等操作
     - 觉得长可以试试 `-s`
 
 4. `git diff`
@@ -43,8 +43,8 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
         - 多次小的提交
         - 一次提交围绕着一个功能
         - 提交的代码应该经过测试
-         - 提交时应写详细的注释: 说明提交的目的, 与前一个版本的区别等等
-         - 多人协作时应更严谨一些
+        - 提交时应写详细的注释: 说明提交的目的, 与前一个版本的区别等等
+        - 多人协作时应更严谨一些
     - `git commit --amend` 可以修改前一次提交 (注意: 不要修改已经 push 的提交!!)
 
 6. `git log` 显示提交日志, commit hash 从这里找
@@ -56,8 +56,8 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
     - `git reset commit_id`
     - `--hard` 要小心使用. `git reset` 是安全的
     - 常用的简写
-        - HEAD: 最近的提交; HEAD^ 前一个提交, HEAD^^, HEAD~100
-        - normal commit id: commit 31dc03905a9866775fe45ac8ae22382c685ce66e
+        - `HEAD`: 最近的提交; `HEAD^` 前一个提交; `HEAD^^`, `HEAD~100`
+        - commit id: commit 31dc03905a9866775fe45ac8ae22382c685ce66e
     - `git reflog` 记录了所有 HEAD 的修改
 
 9. 分支
@@ -76,12 +76,11 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
         - master 始终保持干净
         - 考虑适当使用 tags
 
-## Remote, push and pull
+## Remote, pull and push
 
 1. 远程仓库
-    - 本地 Git 可以很好的管理我们的代码了; 远程仓库则让我们可以进行多人协作, 
-    同时, Git 分布式的设计让代码更加安全.
-    - 著名的项目托管网站有 GitHub, Bitbucket, 国内也有 GitCafe 等.
+    - 本地 Git 可以很好地管理代码; 远程仓库则让我们可以进行多人协作, 同时, Git 分布式的设计让代码更加安全.
+    - 著名的项目托管网站有 GitHub, Bitbucket 等, 国内也有 GitCafe 等.
     - From local to remote: `git remote add origin <link>`
     - from remote to local: `git clone <link>`
     - 我们经常会遇到有多个 remote 仓库的情况, 如你是项目管理员, 有几个人分别更新他们各自的代码, 
@@ -91,9 +90,12 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
     - `git add remote [shortname] [url]`
     - `git remote` 显示所有的远程仓库, `-v` 显示对应的克隆地址
 
-2. Push 
+2. Pull 拉取远程仓库
+    - `git pull <remote> <branch>`
+    - pull == fetch + merge
+
+3. Push
     - `git push <remote> <branch>`
-    - push == fetch + merge
 
 ## GitHub
 
@@ -111,7 +113,7 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 
 - [Gist](https://gist.github.com/) 可以用来存放小代码片段, 也可以用来写便签 :)
 
-- GitHub 的开源项目免费, 私有项目按月收费
+- GitHub 的开源项目免费, 私有项目按月收费 (目前最小的 plan 是 $7/month, 5 个私有仓库)
 
 ## 附注: 炫酷的 Git Terminal 配置
 
