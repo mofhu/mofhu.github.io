@@ -80,7 +80,7 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 
 1. 远程仓库
     - 本地 Git 可以很好地管理代码; 远程仓库则让我们可以进行多人协作, 同时, Git 分布式的设计让代码更加安全.
-    - 著名的项目托管网站有 GitHub, Bitbucket 等, 国内也有 GitCafe 等.
+    - 著名的项目托管网站有 [GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/) 等, 国内也有 [GitCafe](https://gitcafe.com/) 等.
     - From local to remote: `git remote add origin <link>`
     - from remote to local: `git clone <link>`
     - 我们经常会遇到有多个 remote 仓库的情况, 如你是项目管理员, 有几个人分别更新他们各自的代码, 
@@ -97,7 +97,9 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 3. Push
     - `git push <remote> <branch>`
 
-## GitHub
+## 项目托管网站
+
+### [GitHub](https://github.com/)
 
 - Fork + Pull request 是 GitHub 工作流的重点. 一个常见的工作流:
     - 管理员管理主仓库, 其它人在自己的 Fork 中工作; 如果是 organization/repo 的项目,
@@ -113,11 +115,21 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 
 - [Gist](https://gist.github.com/) 可以用来存放小代码片段, 也可以用来写便签 :)
 
-- GitHub 的开源项目免费, 私有项目按月收费 (目前最小的 plan 是 $7/month, 5 个私有仓库)
+- GitHub 的开源项目免费, 私有项目按**仓库数量**收费 (目前最小的个人 plan 是 5 个私有仓库, $7/month.) 
+不限制合作者的数量.
+
+### [Bitbucket](https://bitbucket.org/)
+
+与 GitHub 的收费方式不同, Bitbucket 的私有仓库按照**合作者数量**收费, 每个用户的私有仓库数量无限制. 
+免费私有仓库的合作者数量是 5 人. 最小的 plan 是 10 人, $10/month. 
+
+对于不想花钱的用户来说, Bitbucket 更适合个人或小团队存放一些私人项目. 
+更具体的讨论可以看[这里](http://www.oschina.net/translate/bitbucket-vs-github-its-more-than-just-features?print), 
+不过这篇文章的年头稍长(2014 年 5 月), 可能与现在的情况稍有差别.
 
 ## 附注: 炫酷的 Git Terminal 配置
 
-Git 为 bash zsh 等 shell 都提供了补全库和自定义提示符. 
+Git 为 bash, zsh 等 shell 都提供了补全库和自定义提示符. 
 如果你使用了一些强大的 zsh 框架, 如[oh-my-zsh](http://ohmyz.sh/), 
 那么你的 Terminal 可以变得相当炫酷:
 
