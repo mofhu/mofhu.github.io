@@ -99,9 +99,10 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 
 ## 项目托管网站
 
-### [GitHub](https://github.com/)
+### GitHub
 
-- Fork + Pull request 是 GitHub 工作流的重点. 一个常见的工作流:
+- Fork + Pull request 是 [GitHub](https://github.com/)
+工作流的重点. 一个常见的工作流:
     - 管理员管理主仓库, 其它人在自己的 Fork 中工作; 如果是 organization/repo 的项目,
     一般大家都会在自己的 Fork 下工作, 主仓库只用来管理.
     - 新的版本在自己的分支开发后, 与最新的远程 master merge 好, 推送自己的 master, 
@@ -118,9 +119,10 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 - GitHub 的开源项目免费, 私有项目按**仓库数量**收费 (目前最小的个人 plan 是 5 个私有仓库, $7/month.) 
 不限制合作者的数量.
 
-### [Bitbucket](https://bitbucket.org/)
+### Bitbucket
 
-与 GitHub 的收费方式不同, Bitbucket 的私有仓库按照**合作者数量**收费, 每个用户的私有仓库数量无限制. 
+与 GitHub 的收费方式不同, [Bitbucket](https://bitbucket.org/)
+的私有仓库按照**合作者数量**收费, 每个用户的私有仓库数量无限制. 
 免费私有仓库的合作者数量是 5 人. 最小的 plan 是 10 人, $10/month. 
 
 对于不想花钱的用户来说, Bitbucket 更适合个人或小团队存放一些私人项目. 

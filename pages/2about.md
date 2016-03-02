@@ -61,8 +61,11 @@ icon: glyphicon-heart
 
 ## 联系我
 
-* Email: humour114 AT gmail.com
-* 豆瓣: [无名的弗兰克](http://www.douban.com/people/franktheobscure/)
+* Email: mofrankhu AT gmail.com
+* GitHub: [@mofhu](https://github.com/mofhu)
+* Bitbucket: [@mofhu](https://bitbucket.org/mofhu/)
+* 知乎: [@胡墨](https://www.zhihu.com/people/frank_hu)
+* 豆瓣: [@无名的弗兰克](http://www.douban.com/people/franktheobscure/)
 
 ### 版权信息
 
