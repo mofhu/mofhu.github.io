@@ -51,6 +51,7 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 
 7. 删除
     - `git rm` 删文件之后还要用这个命令或者 `git add .` Git 才知道.
+    - 移动文件可用 `git mv`
 
 8. 回退
     - `git reset commit_id`
@@ -61,7 +62,7 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
     - `git reflog` 记录了所有 HEAD 的修改
 
 9. 分支
-    - Git 的另一个重要功能
+    - Git 的主要功能之一
     - `git branch <branch name>`: list (without argument) and add new branch
     - `git checkout` 切换分支
         - **切换分支前, 一定要把当前工作区清理干净**: 否则修改也会被带到分支中去
@@ -70,11 +71,12 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
         Git-%E5%B7%A5%E5%85%B7-%E5%82%A8%E8%97%8F%E4%B8%8E%E6%B8%85%E7%90%86) 储藏起来; 
         以后再用 `git stash apply` 恢复
     - `git merge <name>`: merge a branch to branch in use.
-        - 遇到不能直接 merge 的情况不要慌! 不要慌! 仔细看看改改就好了.
+        - 遇到不能直接 merge 的情况不要慌! 不要慌! 通常仔细看看改改就好了.
     - Best practices: 
         - master / dev / bugs / features...
         - master 始终保持干净
         - 考虑适当使用 tags
+    - 更详细和权威的介绍: [分支 - Pro Git](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B); [常用的分支工作流(workflow)](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E6%B5%81)
 
 ## Remote, pull and push
 
@@ -106,8 +108,9 @@ excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
     - 管理员管理主仓库, 其它人在自己的 Fork 中工作; 如果是 organization/repo 的项目,
     一般大家都会在自己的 Fork 下工作, 主仓库只用来管理.
     - 新的版本在自己的分支开发后, 与最新的远程 master merge 好, 推送自己的 master, 
-    再 PR 主仓库(这样主仓库的 master 在 PR 时一般就都可以直接 merge 了) 
+    再 PR 主仓库(这样主仓库的 master 在 PR 时就可以直接 merge 了) 
     - PR 后管理员通过 PR 页面讨论代码
+    - 更详细的介绍: [GitHub - Pro Git](https://git-scm.com/book/zh/v2/GitHub-%E8%B4%A6%E6%88%B7%E7%9A%84%E5%88%9B%E5%BB%BA%E5%92%8C%E9%85%8D%E7%BD%AE)
 
 - 主要的协作功能还有 Issue 和 Wiki
 
