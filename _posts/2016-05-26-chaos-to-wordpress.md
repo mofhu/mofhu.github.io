@@ -1,9 +1,14 @@
 ---
 layout: post
-title: chaos-to-wordpress
+title: "WordPress 开发小记"
+date: 2016-05-26 11:40:00
+categories: 编程 Programming 从零到一 Chaos-to-sth WordPress
+excerpt: "莫名躺枪, 部署了一个 WordPress 站点, 跳坑也填坑."
 ---
 
-## WordPress 开发小记
+* content
+{:toc}
+
 
 前一阵莫名躺了个枪, 需要开发一个小站点. 为了后期不会写代码的用户们维护方便,
 考虑要有所见即所得的后台界面为好. (Jekyll 虽然好, 静态站点部署也方便得多,
@@ -33,7 +38,7 @@ title: chaos-to-wordpress
 ## Wampserver 下更改访问网站的权限
 
 迁移后发现服务器本地可正常访问站点, 但其它机器联网访问时遇到没有权限的问题.
-Google 发现需要设置访问数据库的权限, 使其它地址也能访问[^3].
+Google 发现需要设置 MyPHPAdmin 访问数据库的权限, 使其它地址也能访问[^3].
 
 ~~~
 Alias /bs1 "c:/_DEV_/git/NewProject/www/"
@@ -51,7 +56,7 @@ Alias /bs1 "c:/_DEV_/git/NewProject/www/"
 ## MySQL 误调 root 权限的恢复
 
 迁移完成之后, 自己挖了一个大坑: 为安全计我想把 MySQL 的 root 用户禁掉.
-然而我忘了把 WP 的用户打开对应的权限. 于是, 所有的 MySQL 用户都不能访问表,
+然而我忘了把 WP 的用户先打开对应的权限. 于是, 所有的 MySQL 用户都不能访问表,
 网站直接无法访问 :(
 
 求助了万能的 Google, 发现可以通过 `mysqld -nt --skip-grant-tables`,
