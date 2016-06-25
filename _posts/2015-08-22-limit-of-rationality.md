@@ -2,7 +2,8 @@
 layout: post
 title: "[理性之心] 4. 返场: 理性的理性反思"
 date: 2015-08-22 23:21:54
-categories: 写给十年前的自己 理性之心 Rationality 随笔
+categories: Essay 写给十年前的自己 理性之心
+tags: Rationality
 excerpt: "理性是万能灵药吗? 一个理性的简短回答: 很遗憾, 不是."
 ---
 

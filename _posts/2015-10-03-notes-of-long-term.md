@@ -2,7 +2,8 @@
 layout: post
 title: "杂谈大道理"
 date: 2015-10-03 22:39:54
-categories: 随笔 阅读 Reading
+categories: Essay
+tags: 大道理 行动 执行意图 implementation-intention
 excerpt: 听过了许多大道理, 我们为什么仍然过不好这一生? 
 ---
 

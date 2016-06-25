@@ -2,7 +2,8 @@
 layout: post
 title: "Git 入门笔记"
 date: 2016-02-01 22:20:00
-categories: 编程 Programming 笔记 从零到一 Chaos-to-sth Git 工具
+categories: Programming
+tags: 笔记 从零到一 Git 工具
 excerpt: "Git 入门哪家强? 我还是兹磁 Pro Git."
 ---
 

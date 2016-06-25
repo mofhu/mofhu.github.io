@@ -2,7 +2,8 @@
 layout: post
 title: "为什么公开讨论令众受益?"
 date: 2015-09-02 22:11:54
-categories: 随笔
+categories: Essay
+tags: 公开 讨论
 excerpt: 公开讨论可以令更多的人受益吗, 为什么?
 ---
 

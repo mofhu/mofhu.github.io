@@ -2,7 +2,8 @@
 layout: post
 title: "真诚, 温和, 不功利的沟通——非暴力沟通"
 date: 2016-02-14 19:00:00
-categories: 阅读 Reading 沟通
+categories: Reading
+tags: 沟通
 excerpt: "《非暴力沟通》是我二零一六年读的第二本书. 书中阐述了一种真诚, 温和而不功利的沟通方式."
 ---
 

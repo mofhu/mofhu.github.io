@@ -2,7 +2,8 @@
 layout: post
 title: "Status Anxiety 身份的焦虑"
 date: 2015-07-26 22:44:54
-categories: 阅读 Reading 阿兰·德波顿
+categories: Reading
+tags: 阿兰·德波顿
 excerpt: "跟着阿兰·德波顿温和的文字, 让我们一起聊聊自己的焦虑."
 ---
 

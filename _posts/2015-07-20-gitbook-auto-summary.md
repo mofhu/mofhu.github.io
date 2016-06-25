@@ -2,7 +2,8 @@
 layout: post
 title: "GitBook auto summary"
 date: 2015-07-20 23:21:54
-categories: GitBook 编程 Programming Python
+categories: Programming
+tags: GitBook Python
 excerpt: "GitBook auto summary 是我编写的一个小脚本, 可以根据现有的目录自动生成 GitBook 的 Summary.md 文件."
 ---
 

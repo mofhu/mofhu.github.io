@@ -2,7 +2,8 @@
 layout: post
 title: "Python 性能分析: cProfile"
 date: 2016-02-08 11:00:00
-categories: 性能分析 从零到一 Chaos-to-sth Python 编程 Programming
+categories: Programming
+tags: 性能分析 从零到一 Python 
 excerpt: '基于 Python 自带电池 ("batteries included") 的哲学, 在性能分析方面标准库中提供了方便易用的 cProfile/profile 模块. cProfile 模块可很方便地评价程序的性能, 帮助我们发现程序中最值得优化的短板, 让我们的时间--最宝贵的财富--得到更好的利用.'
 ---
 

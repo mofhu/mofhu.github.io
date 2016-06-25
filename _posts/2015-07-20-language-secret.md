@@ -2,7 +2,8 @@
 layout: post
 title: "[理性之心] 1. 语言的诡计"
 date: 2015-07-20 23:21:54
-categories: 写给十年前的自己 理性之心 Rationality
+categories: Essay 写给十年前的自己 理性之心
+tags: Rationality
 excerpt: 语言是人与人交流的基石, 一切思想的载体首先是语言. 当我发现承载自己想法和行动的自然语言中竟然有这么基础而重大的问题时, 就决定一定要把它写下来, 作为理性之心的引子. 理性, 从重新看待语言开始.
 ---
 

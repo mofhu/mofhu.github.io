@@ -2,7 +2,8 @@
 layout: post
 title: "Vim 入门小记"
 date: 2015-12-24 22:39:54
-categories: Vim 从零到一 Chaos-to-sth 编程 Programming 工具
+categories: Programming
+tags: Vim 从零到一 工具
 excerpt: "爱折腾的我玩起了 Vim."
 ---
 

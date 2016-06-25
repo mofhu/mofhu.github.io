@@ -2,7 +2,8 @@
 layout: post
 title: "[理性之心] 2. 概念与定义"
 date: 2015-08-09 23:21:54
-categories: 写给十年前的自己 理性之心 Rationality
+categories: Essay 写给十年前的自己 理性之心
+tags: Rationality
 excerpt: '我们在日常生活中说的话时常并不那么准确, 甚至常有"强词夺理"之嫌. 那么, 如果我们想把可重复的理性带到自己的生活之中, 应该怎么尝试呢? 理性的分析与讨论, 就从定义话语中的每一个概念开始.'
 ---
 

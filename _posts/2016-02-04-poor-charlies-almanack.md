@@ -2,7 +2,8 @@
 layout: post
 title: "穷查理宝典"
 date: 2016-02-04 23:00:00
-categories: 阅读 Reading 查理·芒格 理性之心 Rationality
+categories: Reading
+tags: 查理·芒格 理性之心 Rationality
 excerpt: "《穷查理宝典》的读书笔记. 它是我二零一六年读的第一本书, 我以最大的诚意推荐给大家, 特别是热爱理性的朋友们."
 ---
 

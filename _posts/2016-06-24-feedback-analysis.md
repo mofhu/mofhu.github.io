@@ -2,7 +2,8 @@
 layout: post
 title: "反馈分析这一年"
 date: 2016-06-24 18:40:00
-categories: 反馈分析
+categories: Essay
+tags: 反馈分析
 excerpt: "feedback analysis 是德鲁克推荐给每个人管理自己的一个技巧. 本文记录了我使用它一年的感受."
 ---
 

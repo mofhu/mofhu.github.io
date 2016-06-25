@@ -2,7 +2,8 @@
 layout: post
 title: "[理性之心] 3. 模型与机制"
 date: 2015-08-20 23:21:54
-categories: 写给十年前的自己 理性之心 Rationality
+categories: Essay 写给十年前的自己 理性之心
+tags: Rationality
 excerpt: 说完了相关与概念, 让我们聊聊模型与机制.
 ---
 
