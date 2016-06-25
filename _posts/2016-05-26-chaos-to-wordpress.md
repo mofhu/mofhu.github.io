@@ -2,7 +2,8 @@
 layout: post
 title: "WordPress 开发小记"
 date: 2016-05-26 11:40:00
-categories: 编程 Programming 从零到一 Chaos-to-sth WordPress
+categories: Programming
+tags: 从零到一 WordPress
 excerpt: "莫名躺枪, 部署了一个 WordPress 站点, 跳坑也填坑."
 ---
 
@@ -19,6 +20,26 @@ excerpt: "莫名躺枪, 部署了一个 WordPress 站点, 跳坑也填坑."
 
 初期开发测试时, 最好能在本地部署, 以提高`开发-测试-反馈`循环的速度.
 在 OS X 上, 可用打包好的 MAMP 来进行本地测试[^1].
+
+### 安装 MAMP
+
+MAMP stands for Macintosh, Apache, MySQL, and PHP.
+
+这里需要注意的是只要使用 MAMP 即可(不需要 MAMP PRO)
+
+### 设置 MAMP
+
+WordPress 需要设置 MySQL 和 Apache 才能安装.
+
+因此我们需要在 MAMP 界面和管理网站中进行设置. 按照官方教程设置即可.
+
+### 安装 WordPress
+
+设置好 MAMP 后, 我们就在本地构建了 wp 的安装环境. 下面按照[经典的 5 分钟安装](https://codex.wordpress.org/zh-cn:%E5%AE%89%E8%A3%85_WordPress)即可.
+
+### 本地调试 WordPress
+
+访问本机地址即可看到 WordPress 前台和后台.
 
 ## MAMP 迁移到 Wampserver
 
