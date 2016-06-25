@@ -1,7 +1,11 @@
 # Site settings
 title: Frank the Obscure
+brief-intro: 无名的弗兰克
 email: humour114@gmail.com
-description: 无名的弗兰克
+url: "http://frank-the-obscure.me"
+
+permalink: /:year/:month/:day/:title/
+
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
@@ -11,13 +15,34 @@ description: 无名的弗兰克
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: mofhu
+zhihu_username: frank_hu
 permalink: /:year/:month/:day/:title/
+
+description_footer: 无名的弗兰克 一只有点迷茫的化学狗
+# comments
+# two ways to comment, only choose one, and use your own short name
+disqus_shortname: frank-the-obscure
+
+# statistic analysis 统计代码
+google_analytics_id: UA-79882228-1 # google 分析追踪id
+
 
 # Build settings
 markdown: kramdown
 
 # highlight
 highlighter: rouge
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 10
 
 # able to build "future" posts
 future: true
