@@ -25,7 +25,7 @@ excerpt: "莫名躺枪, 部署了一个 WordPress 站点, 跳坑也填坑."
 
 MAMP stands for Macintosh, Apache, MySQL, and PHP.
 
-这里需要注意的是只要使用 MAMP 即可(不需要 MAMP PRO)
+这里需要注意的是使用 MAMP 即可(不需要 MAMP PRO)
 
 ### 设置 MAMP
 
@@ -87,6 +87,53 @@ Alias /bs1 "c:/_DEV_/git/NewProject/www/"
 UPDATE USER SET select_priv='Y',Insert_priv='Y',Update_priv='Y',Delete_priv='Y',Create_priv='Y',Drop_priv='Y',Reload_priv='Y',File_priv='Y',Grant_priv='Y',References_priv='Y',Index_priv='Y',Alter_priv='Y',Show_db_priv='Y',Super_priv='Y',Create_tmp_table_priv='Y',Lock_tables_priv='Y',Execute_priv='Y',Repl_slave_priv='Y',Repl_client_priv='Y',Create_view_priv='Y',Show_view_priv='Y',Create_routine_priv='Y',Alter_routine_priv='Y',Create_user_priv='Y',Event_priv='Y',Trigger_priv='Y',Create_tablespace_priv='Y' WHERE user='root';
 ~~~
 
+## IIS 反向代理之后 WordPress 重定向死循环及解决
+
+站点部署之后, 为了公网访问, 我们采用 IIS 反向代理方法, 让一台有公网访问权限的服务器作为代理访问 WordPress 服务器. 即 `公网 - IIS 服务器 - WordPress 服务器`
+
+然而反向代理架设之后产生了新的问题: 网站只有主页可以正常访问, 其余页面都出现了重定向死循环.
+
+仔细测试发现:
+
+- 后台 (*wordpress-domain/wp-admin*) 正常
+- 直接访问 WordPress 主机的 ip 地址正常
+- 预览页面 (*wordpress-page/?preview=true*) 正常
+
+说明这一问题可能是正常访问页面时, WP 内部重定向到原地址的反向代理所导致.
+
+尝试更改 `.htaccess` 多次, 未果.
+
+重新配置 WordPress 站点名称和后台文件夹位置, 各种组合, 均未解决.
+
+[StackOverflow 提问](http://stackoverflow.com/questions/38302343/wordpress-redirecting-after-iis-reverse-proxy), 几天后也没人回答. (最后自己去写了几句...)
+
+最后又 Google 了一番, 在网站中找到了解决方案[^5], 直接修改 WordPress 文件夹中 `wp-includes/template-loader.php`, 注释掉下面的 `template_redirect ` 相关代码:
+
+~~~php
+//if ( defined('WP_USE_THEMES') && WP_USE_THEMES )
+	/**
+	 * Fires before determining which template to load.
+	 *
+	 * @since 1.5.0
+	 */
+//	do_action( 'template_redirect' );
+~~~
+
+
+## 修改 WordPress 主题字体, 并禁用 Google Fonts
+
+对于中文字体在全平台的显示, 修改 `style.css` 中的 font-family[^6]:
+
+~~~	
+font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+~~~
+
+访问后台时, 由于 GFW, 加载 WordPress 自带的 Google Fonts 可能会导致加载时间很长. 可以使用插件禁用. [^7]
+
+## 停止 WordPress 自动更新和更新提示
+
+WordPress 的自动更新和更新提示对于架设在内网的服务器也很蛋疼, 一并停止[^8].
+
 ---
 
 参考资料:
@@ -95,3 +142,7 @@ UPDATE USER SET select_priv='Y',Insert_priv='Y',Update_priv='Y',Delete_priv='Y',
 [^2]: [本地安装WordPress调试以及上传到远程服务器 Spark & Shine](http://sparkandshine.net/local-install-wordpress-debugging-and-upload-to-remote-server/#4)
 [^3]: [wamp - you don't have permission to access [custom alias] on this server - Stack Overflow](http://stackoverflow.com/questions/26170331/you-dont-have-permission-to-access-custom-alias-on-this-server)
 [^4]: [Mysql root用户权限恢复解决办法 - cycao313的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/cycao313/article/details/8454607)
+[^5]: [wordpress 重定向在squid反向代理下的问题解决方案](http://jacky.aiwaly.com/wp/wordpress-%E9%87%8D%E5%AE%9A%E5%90%91%E5%9C%A8squid%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E4%B8%8B%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html)
+[^6]: [wordpress主题字体更换 Anotherhome](https://www.anotherhome.net/1010)
+[^7]: [Google Fonts导致WordPress 速度问题的三个解决方案 DeveWork](http://devework.com/google-fonts-in-wordpress.html)
+[^8]: [WordPress 禁用自动更新和更新提示 WordPress大学](http://www.wpdaxue.com/disable-updates-manager.html)
