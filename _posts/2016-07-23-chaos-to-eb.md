@@ -10,7 +10,7 @@ excerpt: "ConfusedChemDogs 是 Organization Lab 的第一个上线应用. 这篇
 
 最近和小伙伴一起设计了一个 Django 应用的雏形 [Confused ChemDogs](http://confusedchemdogs.club/). 我们先部署了一个相当粗糙的 MVP 版本(甚至没有任何功能). 这里记录过程中的一些折腾, 也作为一篇 wiki 备用吧:)
 
-主要参考 AWS 官方教程[^1].
+主要参考 AWS 官方教程 [^1].
 
 ## Django 应用
 
@@ -20,7 +20,7 @@ excerpt: "ConfusedChemDogs 是 Organization Lab 的第一个上线应用. 这篇
 
 ## AWS EB CLI
 
-按照 官方教程 [^1]:
+按照官方教程:
 
 1. 运行 `pip freeze` 得到 `requirements.txt`. 后续 Elastic Beanstalk 会使用这个文件建立合适的 EC2 实例
 2. 建立 `.ebextensions` 目录, 并进行 `django.config` 的初始化设置.
@@ -40,4 +40,4 @@ excerpt: "ConfusedChemDogs 是 Organization Lab 的第一个上线应用. 这篇
 
 ---
 
-[^1] [Deploying a Django Application to Elastic Beanstalk - AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html)
+[^1]: [Deploying a Django Application to Elastic Beanstalk - AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html)
