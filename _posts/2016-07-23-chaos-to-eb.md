@@ -8,6 +8,9 @@ excerpt: "ConfusedChemDogs 是 Organization Lab 的第一个上线应用. 这篇
 
 ---
 
+* content
+{:toc}
+
 最近和小伙伴一起设计了一个 Django 应用的雏形 [Confused ChemDogs](http://confusedchemdogs.club/). 我们先部署了一个相当粗糙的 MVP 版本(甚至没有任何功能). 这里记录过程中的一些折腾, 也作为一篇 wiki 备用吧:)
 
 主要参考 AWS 官方教程 [^1].
