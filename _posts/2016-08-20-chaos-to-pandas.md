@@ -35,20 +35,28 @@ excerpt: "几次参加国内的机器学习竞赛时, 都使用 pandas 作为数
 
 - `df.loc[:, 'column_name']` == `df.column_name`
 
-    training_set.loc[:,'y'] = np.log10(1.001 - training_set.key_index_x)  # 赋值建立 log 变换后的新列
-    df['mins'] = df['time_delta'].astype('timedelta64[m]')
-    df_num['time'] = df_num['time'].apply(lambda x: pd.to_datetime(x, errors='coerce'))  # 赋值回原列, 注意这里用的 apply(function) 是一个比较通用的方法
+~~~
+training_set.loc[:,'y'] = np.log10(1.001 - training_set.key_index_x)  # 赋值建立 log 变换后的新列
+df['mins'] = df['time_delta'].astype('timedelta64[m]')
+df_num['time'] = df_num['time'].apply(lambda x: pd.to_datetime(x, errors='coerce'))  # 赋值回原列, 注意这里用的 apply(function) 是一个比较通用的方法
 
-    time0 = df.iloc[0,:].time
-    df['time_delta'] = df['time'].apply(lambda x: x - time0)
+time0 = df.iloc[0,:].time
+df['time_delta'] = df['time'].apply(lambda x: x - time0)
+~~~
+
 - `df.loc` 还可使用限定条件:
 
-    training_set.loc[training_set.key_index_x > 0.85]  # 选择 key_index_x > 0.85 的行
+~~~
+training_set.loc[training_set.key_index_x > 0.85]  # 选择 key_index_x > 0.85 的行
+~~~
+
 - `df.iloc` 限定使用序号, 性能更好
 
-    top50 = training_set.sort_values(by='y').iloc[:50,:]
-    least50 = training_set.sort_values(by='y').iloc[-50:,:]  # 按 y 列排序之后取首尾
-    training_set.iloc[[4557, 4558, 5362, 5363, 5884, 5885, 5886, 5887, 5888, 5889, 5890,5891, 5892, 5893],:]  # 使用列表查看某些行的数据
+~~~
+top50 = training_set.sort_values(by='y').iloc[:50,:]
+least50 = training_set.sort_values(by='y').iloc[-50:,:]  # 按 y 列排序之后取首尾
+training_set.iloc[[4557, 4558, 5362, 5363, 5884, 5885, 5886, 5887, 5888, 5889, 5890,5891, 5892, 5893],:]  # 使用列表查看某些行的数据
+~~~
 
 `df.loc` 的输出常常用于后续的输入. 如使用 `series.tolist()` 或 `df.as_matrix()`
 
