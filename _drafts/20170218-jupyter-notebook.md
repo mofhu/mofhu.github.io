@@ -1,13 +1,20 @@
-# Jupyter notebook
+---
+layout: post
+title: Jupyter notebook
+date: 2017-02-18 06:00:54
+categories: Programming
+tags: Python Jupyter notebook 科学作图   
+excerpt: "这篇文章简单介绍 Jupyter notebook 作为 interactive shell 和 浏览器 IDE 在基于 Python 的科学作图方面的应用."
+---
 
-这篇文章简单介绍 Jupyter notebook 作为浏览器 IDE 在基于 Python 的科学作图方面的应用.
-
+* content
+{:toc}
 
 ## Jupyter notebook (former iPython notebook)
 
-关于 Jupyter notebook 的历史我也不甚了解, 简单来说, Python 作为一种解释性语言, 从其自带的 command line 解释器 (interactive shell) 我们就可以看出, Python 具有迅速执行少量代码的强大功能, 甚至可以一定程度上替代 shell script (是的, windows 我黑的就是你...Python脚本的优点是很大程度跨平台, 不用单独记多套 shell script).
+关于* [Project Jupyter | Home](http://jupyter.org/) 的历史我也不甚了解, 简单来说, Python 作为一种解释性语言, 从其自带的 command line 解释器 (interactive shell) 我们就可以看出, Python 具有迅速执行少量代码的强大功能, 甚至可以一定程度上替代 shell script (是的, windows 我黑的就是你...Python脚本的优点是很大程度跨平台, 不用单独记多套 shell script).
 
-但是, Python 自带的解释器在改写成代码或者存储变量复用方面还是有很多欠缺之处(可能当初谁也没想到解释器可以开发出这么多种用法...) 于是就有了 iPython, 目的是增强 Python 的 interactive shell. 而 iPython notebook 则是将这个 shell 整合到浏览器之中, 也就是说, 浏览器成为了我们交互的 shell / IDE, 这就是传说中的浏览器编程的一种 Python 实现了.
+但是, Python 自带的解释器在改写成代码或者存储变量复用方面还是有很多欠缺之处(可能当初谁也没想到解释器可以开发出这么多种用法...) 于是就有了 [IPython](https://ipython.org/), 目的是增强 Python 的 interactive shell. 而 Jupyter notebook 则是将这个 shell 整合到浏览器之中, 也就是说, 浏览器成为了我们交互的 shell / IDE, 这就是传说中的浏览器编程的一种 Python 实现了.
 
 那么, notebook 与源码相比, 有什么优势呢?
 
