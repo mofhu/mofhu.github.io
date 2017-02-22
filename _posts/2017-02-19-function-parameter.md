@@ -1,6 +1,14 @@
-# 函数和参数
+---
+layout: post
+title: 函数与参数
+date: 2017-02-19 12:00:54
+categories: Programming
+tags: function parameter productivity
+excerpt: "我想通过这篇文章, 谈谈自己对函数和参数的一点理解."
+---
 
-我想通过这篇文章, 谈谈自己对函数和参数的一点理解.
+* content
+{:toc}
 
 ## 函数
 

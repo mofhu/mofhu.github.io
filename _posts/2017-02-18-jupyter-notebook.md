@@ -10,9 +10,9 @@ excerpt: "这篇文章简单介绍 Jupyter notebook 作为 interactive shell 和
 * content
 {:toc}
 
-## Jupyter notebook (former iPython notebook)
+## Jupyter notebook (former IPython notebook)
 
-关于* [Project Jupyter | Home](http://jupyter.org/) 的历史我也不甚了解, 简单来说, Python 作为一种解释性语言, 从其自带的 command line 解释器 (interactive shell) 我们就可以看出, Python 具有迅速执行少量代码的强大功能, 甚至可以一定程度上替代 shell script (是的, windows 我黑的就是你...Python脚本的优点是很大程度跨平台, 不用单独记多套 shell script).
+关于 [Project Jupyter](http://jupyter.org/) 的历史我也不甚了解, 简单来说, Python 作为一种解释性语言, 从其自带的 command line 解释器 (interactive shell) 我们就可以看出, Python 具有迅速执行少量代码的强大功能, 甚至可以一定程度上替代 shell script (是的, windows 我黑的就是你...Python脚本的优点是很大程度跨平台, 不用单独记多套 shell script).
 
 但是, Python 自带的解释器在改写成代码或者存储变量复用方面还是有很多欠缺之处(可能当初谁也没想到解释器可以开发出这么多种用法...) 于是就有了 [IPython](https://ipython.org/), 目的是增强 Python 的 interactive shell. 而 Jupyter notebook 则是将这个 shell 整合到浏览器之中, 也就是说, 浏览器成为了我们交互的 shell / IDE, 这就是传说中的浏览器编程的一种 Python 实现了.
 
@@ -42,11 +42,11 @@ notebook在分享方面的这两个特点, 一方面可以使教学者把知识"
 
 ## Windows 7 下部署 Jupyter notebook
 
-不幸的是, Windows 环境下的软件安装一直是个老大难问题. 不过在科学计算领域, 也有 conda 等集成好所有常见库的包可供使用, 推荐小白采用. 从 pip 安装时, 可能会遇到 numpy, scipy 等库编译失败的情况, 此时可搜索在线的一些预编译包, 使用 `.whl` 文件安装.
+不幸的是, Windows 环境下的软件安装一直是个老大难问题. 不过在科学计算领域, 也有 [Anaconda](https://www.continuum.io/downloads) 等集成好所有常见库的 exe 包可供使用, 推荐小白采用. 从 pip 安装时, 可能会遇到 numpy, scipy 等库编译失败的情况, 此时可搜索在线的一些预编译包, 使用 `.whl` 文件安装.
 
 部署 Jupyter notebook 之后, 还可使用一系列的插件提高浏览器环境的工作手感.
 
-nbextensions 中提供了 zenmode, vimbinding 等插件, 由于个人最近爱上了 Vim, 自然也就体验了一把 vimbinding 提升手速的感觉.
+nbextensions 中提供了 zenmode, [vimbinding](https://github.com/lambdalisue/jupyter-vim-binding) 等插件, 由于个人最近爱上了 Vim, 自然也就体验了一把 vimbinding 提升手速的感觉.
 
 VIM binding 作为 Jupyter notebook 的一个插件, 改变了其操作模式:
 
@@ -83,4 +83,4 @@ Jupyter notebook 完全可以记录这个过程. 这种记录对于编程学习�
 
 Jupyter 的版本管理是一团糟...一个大 json 用 Git 管理会崩掉的.. diff 会很乱
 
-更大的问题是网页 IDE 完全没集成版本管理. 只能有一个 checkpoint 的设定对于用户也太不友好了, 这年头 Word 都有自动保存...目前这个实在是不太行...也看到有人给出了解决方案.
+更大的问题是网页 IDE 完全没集成版本管理. 只能有一个 checkpoint 的设定对于用户也太不友好了, 这年头 Word 都有自动保存...目前这个实在是不太行...也看到有人给出了解决方案 [IPython Notebook Multiple Checkpoints - Stack Overflow](http://stackoverflow.com/questions/19142465/ipython-notebook-multiple-checkpoints).
