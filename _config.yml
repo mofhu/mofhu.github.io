@@ -53,6 +53,13 @@ excerpt_separator: "\n\n\n\n"
 category_dir: category/
 tag_dir: tag/
 
+# jekyll-compose
+post_front_matter:
+ # temp category for testing new jekyll-compose
+  category: 
+  tag: 
+  excerpt: 
+
 # paginate
 gems: [jekyll-paginate]
 paginate: 5

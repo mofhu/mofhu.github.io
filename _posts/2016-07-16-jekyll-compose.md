@@ -64,3 +64,9 @@ Jekyll::Compose 提供了简洁的几个命令: draft, post, publish, unpublish,
 
     $ jekyll unpublish _posts/2014-01-24-my-new-draft.md
     $ bundle exec jekyll unpublish _posts/2014-01-24-my-new-draft.md
+
+## 修改 Jekyll compose 增加页面模板
+
+由于我的博客添加了 category 和 tag 等描述字段, 每篇文章都手动添加也很麻烦. 借鉴 [Allow additional front matter for Post by toshimaru jekyll/jekyll-compose](https://github.com/jekyll/jekyll-compose/pull/41/files), 我也对 Jekyll compose 的源码进行了[微小的修改](https://github.com/mofhu/jekyll-compose/commit/853caf1227f7c72ce33a833748ca49e5af29351a), 使这部分内容也可在 draft 和 publish 时自动填写.
+
+只需修改 Jekyll compose 中的 post, draft 相关文件, 即可添加支持. 使用时在 Jekyll 目录下的 `_config.yml` 中添加需要填写的字段及其默认值即可.
