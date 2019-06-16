@@ -93,11 +93,12 @@ layout: default
 <script>
 /**
  * target _blank
+ * change to _self for footnoot links
  */
 (function() {
     var aTags = document.querySelectorAll('article a:not([id])')
     for (var i = 0; i < aTags.length; i++) {
-        aTags[i].setAttribute('target', '_blank')
+        aTags[i].setAttribute('target', '_self')
     }
 }());
 </script>
