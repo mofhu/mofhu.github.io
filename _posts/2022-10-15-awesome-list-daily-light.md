@@ -2,7 +2,7 @@
 layout: post
 title: "周末家居闲适清单"
 date: 2022-10-15 16:00:00
-categories: "awesome list"
+categories: "awesome-list"
 tags: 咖啡 家居 智能
 excerpt: "简单分享咖啡和居家好物, 这或许就是所谓`日常的光`吧:)"
 ---
