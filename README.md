@@ -6,7 +6,7 @@ Hello world!
 
 普通的在读化学博士生一名. 这里是我的个人博客, 文章主题偏向于技术和写作.
 
-如果你对我感兴趣的话, 不妨看看[这里](http://frank-the-obscure.me/about/)的简单介绍 :)
+如果你对我感兴趣的话, 不妨看看[这里](https://mofhu.github.io/about/)的简单介绍 :)
 
 ## 版权信息
 
